@@ -26,8 +26,8 @@ jobs:
         #sed -i -e '/^\[Schedule\]/r schedule_.md' README.md
         npx marked -i README.md >> _site/index.html
         cat .assets/template_end.html >> _site/index.html
-        cp *.svg _site/
-        cp *.png _site/
+        #cp *.svg _site/
+        #cp *.png _site/
         mkdir _site/assignments
         cp assignments/*.html _site/assignments/
         #rm schedule_.md
