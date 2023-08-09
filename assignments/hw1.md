@@ -75,26 +75,28 @@ Always push all code to GitHub. Once you have pushed your final code there and a
 
 The assignment is worth 150 points. We will grade the assignment with this rubric:
 
-**New card organizer (50pt):**
+**New card organizer (55pt):**
 
-- [ ] 30: The solution implements the above specification correctly and nothing more for both languages (partial credit 20pt for one language)
+- [ ] 25: The solution implements the above specification correctly and nothing more for both languages (partial credit 15pt for one language)
 - [ ] 5: The TypeScript implementation is reasonably well documented, using the API documentation style of the language.
 - [ ] 5: The Java implementation is reasonably well documented, using the API documentation style of the language.
 - [ ] 5: The TypeScript implementation is clean & concise. It does not introduce unnecessary variables, dead or out-commented code, particularly strange indentation. It follows coding conventions of the language.
 - [ ] 5: The Java implementation is clean & concise. It does not introduce unnecessary variables, dead or out-commented code, particularly strange indentation. It follows coding conventions of the language.
-
-**Command-line processing (65pt):**
+* [ ] 10: The implementation in both languages is well organized and does not expose unnecessary implementation details (encapsulation) and it programs against interfaces, not classes. (partial credit 5pt for one language)
+      
+**Command-line processing (60pt):**
 
 - [ ] 15: The implementation in both languages makes use of an external library, imported through a package manager (partial credit 10pt for one language)
-- [ ] 30: The implementation in both languages parses and validates target files for card decks and all 4 options listed above. It rejects invalid options or arguments with an error message. Examples of invalid options or arguments include negative numbers for repetitions and organizers that don't exist or contain numbers.  (partial credit 20pt for one language)
+- [ ] 25: The implementation in both languages parses and validates target files for card decks and all 4 options listed above. It rejects invalid options or arguments with an error message. Examples of invalid options or arguments include negative numbers for repetitions and organizers that don't exist or contain numbers.  (partial credit 15pt for one language)
 - [ ] 20: The implementation in both languages responds correctly to the command-line options -- opens the right card deck, uses the right organization strategies, lists help, etc. (partial credit 15pt for one language)
 
 **Infrastructure and style (35pt):**
 
+* [ ] 10: The URL submitted to Canvas is in the specified format and links to a specific commit.
 * [ ] 5: Most commits are reasonably cohesive
 * [ ] 5: Most commit messages are reasonably descriptive
 * [ ] 5: The TypeScript build passes on GitHub Actions, including the automated style checks.
 * [ ] 5: The Java build passes on GitHub Actions, including the automated style checks.
 * [ ] 5: The implementation in both languages does not introduce unnecessary variables, dead or out-commented code, particularly strange indentation. It follows coding conventions of the language. (partial credit 3pt for one language)
-* [ ] 10: The implementation in both languages is well organized and does not expose unnecessary implementation details (encapsulation) and it programs against interfaces, not classes. (partial credit 5pt for one language)
+
 
