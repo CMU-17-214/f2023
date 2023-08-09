@@ -87,19 +87,16 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td><span class="assignment"><span class="hw">HW 1 due</span> Intro to OO and Libraries</td>
       <td></td>
     </tr>
-
     <tr class="">
       <td>Tue, Jan 31</td>
       <td><a href="slides/05-test-case-design.pdf">Test case design</a></td>
       <td><a href="https://www.testim.io/blog/unit-testing-best-practices/">Unit Testing Best Practices</a></td>
     </tr>
-    
     <tr>
       <td>Wed, Feb 1</td>
       <td><span class="rec">Rec 3</span> Unit testing</td>
       <td></td>
     </tr>
-    
     <tr class="">
       <td>Thu, Feb 2</td>
       <td><a href="slides/06-oo-analysis.pdf">Object-oriented analysis & UML</a></td>
@@ -118,13 +115,11 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td><a href="slides/07-assigning-responsibilities.pdf">Responsibility assignment</a></td>
       <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9--11, 15-017</td>
     </tr>
-    
     <tr>
       <td>Wed, Feb 8</td>
       <td><span class="rec">Rec 4</span> Design and UML</td>
       <td></td>
     </tr>
-    
     <tr class="">
       <td>Thu, Feb 9</td>
       <td><a href="slides/08-inheritance-and-delegation.pdf">Inheritance & Delegation</a></td>
@@ -230,7 +225,6 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td></td>
     </tr>
   </tbody>
-
   <tbody>
     <tr>
       <td>Tue, Mar 21</td>
@@ -248,7 +242,6 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td></td>
     </tr>
   </tbody>
-
   <tbody>
     <tr>
       <td>Mon, Mar 27</td>
@@ -271,7 +264,6 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td></td>
     </tr>
   </tbody>
-
   <tbody>
     <tr>
       <td>Tue, Apr 4</td>
