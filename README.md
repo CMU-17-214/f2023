@@ -112,7 +112,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     <tr class="">
       <td>Tue, Sep 19</td>
       <td>Responsibility assignment</td>
-      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9--11, 15-017</td>
+      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9-11, 15-17</td>
     </tr>
     <tr>
       <td>Wed, Sep 20</td>
@@ -136,7 +136,7 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td><span class="rec">Lab 5</span> Inheritance and Delegation</td>
       <td></td>
     </tr>
-    <tr class="midterm">
+    <tr>
       <td>Thu, Sep 28</td>
       <td>Refactoring and Anti-patterns</td>
       <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> on Observer and Decorator</td>
@@ -158,7 +158,7 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td><span class="rec">Lab 6</span> Anti-patterns and Refactoring</td>
       <td></td>
     </tr>
-    <tr>
+    <tr class="midterm">
       <td>Thu, Oct 5</td>
       <td class="midterm">Midterm 1</td>
       <td></td>
@@ -303,7 +303,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Nov 27</td>
-      <td><span class="assignment"><span class="hw">HW 5a due</span> 6a Santorini: God Cards</td>
+      <td><span class="assignment"><span class="hw">HW 6a due</span> Santorini: God Cards</td>
       <td></td>
     </tr>
     <tr>
@@ -340,7 +340,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Fri, Dec 8</td>
-      <td><span class="assignment"><span class="hw">6b due</span> Santorini: GUI</td>
+      <td><span class="assignment"><span class="hw">HW 6b due</span> Santorini: GUI</td>
       <td></td>
     </tr>
   </tbody>
