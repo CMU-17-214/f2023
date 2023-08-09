@@ -14,7 +14,7 @@ After completing this course, students will:
 
 See a more detailed list of [learning goals](https://cmu-17-214.github.io/s2023/learninggoals.html) describing what we want students to know or be able to do by the end of the semester. We evaluate whether learning goals have been achieved through assignments and exams.
 
-### Coordinates
+### Coordinates 
 
 Tu/Th 2:00 - 3:20 p.m. in TEP 1403
 
@@ -357,8 +357,19 @@ The schedule below reflects our current plans, but will be updated throughout th
 
 ## Course Staff
 
-tbd.
+Instructors: [Christian Kaestner](https://www.cs.cmu.edu/~ckaestne/) [ckaestne], and [Jeremy Lacomis](https://jeremylacomis.com/) [jlacomis]
 
+
+TAs: Duan Liang [duanlian], 
+Eileen Weizhen Xiao [ewxiao], 
+Haoqin Yang [haoqiny], 
+Terry (Jielin) Li [jielinl], 
+Lara Marinov [lmarinov], 
+Sitong Shang [sitongs], 
+Tianyi Peng [tianyip], 
+Connie (Wenjun) Zhou [wenjunz2], 
+Kaylee (Yushin) Park [yushinp], 
+Zixuan Zheng [zzheng3]
 
 
 
