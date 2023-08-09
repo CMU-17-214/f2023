@@ -181,6 +181,9 @@ table {
   font-weight: bold;
   color: #e76600;
 }
+.break {
+  font-weight: bold;
+}
 
 .instructor {
   float: left;
