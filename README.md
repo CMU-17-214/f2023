@@ -57,7 +57,6 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td><span class="rec">Rec 1</span> IDEs, Build systems, Libraries, CI</td>
       <td></td>
     </tr>
-
     <tr class="">
       <td>Thu, Jan 19</td>
       <td><a href="slides/02-oobasics-dyndispatch-encapsulation.pdf">OO basics, Dynamic dispatch, Encapsulation</a></td>
@@ -109,7 +108,6 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td><span class="assignment"><span class="hw">HW 2 due</span> Testing</td>
       <td></td>
     </tr>
-
     <tr class="">
       <td>Tue, Feb 7</td>
       <td><a href="slides/07-assigning-responsibilities.pdf">Responsibility assignment</a></td>
