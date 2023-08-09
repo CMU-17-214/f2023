@@ -38,6 +38,7 @@ The schedule below reflects our current plans, but will be updated throughout th
 
 [schedule]
 
+<div id="schedule">
 <table>
   <thead>
     <tr>
@@ -349,7 +350,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
   </tbody>
 </table>
-
+</div>
 
 
 ## Course Staff
