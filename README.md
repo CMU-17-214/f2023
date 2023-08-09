@@ -38,6 +38,328 @@ The schedule below reflects our current plans, but will be updated throughout th
 
 [schedule]
 
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Topic</th>
+      <th style="width: 30%">Reading assignments*</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="">
+      <td>Tue, Jan 17</td>
+      <td><a href="slides/01-introduction.pdf">Introduction</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Jan 18</td>
+      <td><span class="rec">Rec 1</span> IDEs, Build systems, Libraries, CI</td>
+      <td></td>
+    </tr>
+
+    <tr class="">
+      <td>Thu, Jan 19</td>
+      <td><a href="slides/02-oobasics-dyndispatch-encapsulation.pdf">OO basics, Dynamic dispatch, Encapsulation</a></td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr class="">
+      <td>Tue, Jan 24</td>
+      <td><a href="slides/03-IDEs-build-systems-CI-libraries.pdf">IDEs, Build system, Continuous Integration, Libraries</a></td>
+      <td>Required: <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019578256404436">Effective Java</a>, Items 15 and 16</td>
+    </tr>
+    <tr>
+      <td>Wed, Jan 25</td>
+      <td><span class="rec">Rec 2</span>  Introduction to Git</td>
+      <td></td>
+    </tr>
+    <tr class="">
+      <td>Thu, Jan 26</td>
+      <td><a href="slides/04-specifications&unit-testing-exceptions.pdf">Specifications and Unit Testing, Exceptions</a></td>
+      <td>Recommended: <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991000042699704436">Java Precisely</a> (Ch 3, 4, 9, 10, 11); <a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019576570404436">JavaScript: The Good Parts</a> (Ch. 3, 4, 9), <a href="https://www.typescriptlang.org/docs/handbook/intro.html">TypeScript Handbook</a> (Basics, Everyday Types, Object Types)</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mon, Jan 30</td>
+      <td><span class="assignment"><span class="hw">HW 1 due</span> Intro to OO and Libraries</td>
+      <td></td>
+    </tr>
+
+    <tr class="">
+      <td>Tue, Jan 31</td>
+      <td><a href="slides/05-test-case-design.pdf">Test case design</a></td>
+      <td><a href="https://www.testim.io/blog/unit-testing-best-practices/">Unit Testing Best Practices</a></td>
+    </tr>
+    
+    <tr>
+      <td>Wed, Feb 1</td>
+      <td><span class="rec">Rec 3</span> Unit testing</td>
+      <td></td>
+    </tr>
+    
+    <tr class="">
+      <td>Thu, Feb 2</td>
+      <td><a href="slides/06-oo-analysis.pdf">Object-oriented analysis & UML</a></td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mon, Feb 6</td>
+      <td><span class="assignment"><span class="hw">HW 2 due</span> Testing</td>
+      <td></td>
+    </tr>
+
+    <tr class="">
+      <td>Tue, Feb 7</td>
+      <td><a href="slides/07-assigning-responsibilities.pdf">Responsibility assignment</a></td>
+      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9--11, 15-017</td>
+    </tr>
+    
+    <tr>
+      <td>Wed, Feb 8</td>
+      <td><span class="rec">Rec 4</span> Design and UML</td>
+      <td></td>
+    </tr>
+    
+    <tr class="">
+      <td>Thu, Feb 9</td>
+      <td><a href="slides/08-inheritance-and-delegation.pdf">Inheritance & Delegation</a></td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mon, Feb 13</td>
+      <td><span class="assignment"><span class="hw">HW 3a due</span> Intro to Design (design checkpoint)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tue, Feb 14</td>
+      <td><a href="slides/09-design-patterns.pdf">Design Patterns</a></td>
+      <td></td>
+    </tr>
+    <tr class="">
+      <td>Wed, Feb 15</td>
+      <td><span class="rec">Rec 5</span> Inheritance and Delegation</td>
+      <td></td>
+    </tr>
+    <tr class="midterm">
+      <td>Thu, Feb 16</td>
+      <td>Midterm 1</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr class="">
+      <td>Tue, Feb 21</td>
+      <td><a href="slides/10-refactoring-antipatterns.pdf">Refactoring and Anti-patterns</a></td>
+      <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> on Observer and Decorator</td>
+    </tr>
+    <tr>
+      <td>Wed, Feb 22</td>
+      <td><span class="rec">Rec 6</span> Anti-patterns and Refactoring</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Feb 23</td>
+      <td><a href="slides/11-intro-gui-concurrency.pdf">Introduction to GUIs and Concurrency</a><!--Asynchrony and Concurrency--></td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mon, Feb 27</td>
+      <td><span class="assignment"><span class="hw">HW 3b due</span> Intro to Design</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tue, Feb 28</td>
+      <td><a href="slides/12-towards-webapps.pdf">(Towards) Web Apps</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Mar 1</td>
+      <td><span class="rec">Rec 7</span> GUI intro </br>
+    </tr>
+    <tr>
+      <td>Thu, Mar 2</td>
+      <td><a href="slides/13-asynchrony-and-concurrency.pdf">Asynchrony & Concurrency</a></td>
+      <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop">Concurrency model and the event loop</a> + <a href="https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5">How JavaScript works</a></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Mar 7</td>
+      <td>No class, Spring Break</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Mar 8</td>
+      <td>No recitation, Spring Break</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Mar 9</td>
+      <td>No class, Spring Break</td>
+      <td></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td>Tue, Mar 14</td>
+      <td><a href="slides/14-concurrency-immutability.pdf">Concurrency: Safety & Immutability</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Mar 15</td>
+      <td><span class="rec">Rec 8</span> Concurrency & Promises</td>
+      <td></td>
+    </tr>
+    <td>Thu, Mar 16</td>
+      <td><a href="slides/15-distributed-systems-events-everywhere.pdf">Distributed Systems -- Events Everywhere</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fri, Mar 17</td>
+      <td><span class="assignment"><span class="hw">HW 4 due</span> Designing Complex Software (UI)</td>
+      <td></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td>Tue, Mar 21</td>
+      <td><a href="slides/16-libraries-and-frameworks.pdf">Libraries and Frameworks</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Mar 22</td>
+      <td><span class="rec">Rec 9</span> Frameworks</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Mar 23</td>
+      <td><a href="slides/17-api-design.pdf">API Design</a></td>
+      <td></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td>Mon, Mar 27</td>
+      <td><span class="assignment"><span class="hw">HW 5 due</span>  Designing Complex Software (God Cards)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tue, Mar 28</td>
+      <td><a href="slides/18-modules.pdf">Organizing Systems at Scale: Modules, Dependencies, Breaking Changes</a></td>
+      <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019695982104436">The Java Module System</a> Chapter 1 or <a href="https://auth0.com/blog/javascript-module-systems-showdown/">JavaScript Module Systems Showdown</a></td>
+    </tr>
+    <tr>
+      <td>Wed, Mar 29</td>
+      <td><span class="rec">Rec 10</span> Test Double (Fakes, Mocks & Stubs)</td>
+      <td></td>
+    </tr>
+    <tr class="midterm">
+      <td>Thu, Mar 30</td>
+      <td>Midterm 2</td>
+      <td></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td>Tue, Apr 4</td>
+      <td><a href="slides/19-designing-for-robustness.pdf">Design for Robustness & Distributed Systems</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Apr 5</td>
+      <td><span class="rec">Rec 11</span> GitFlow and Code Review</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 6</td>
+      <td><a href="slides/20-git-workflows.pdf">Git Workflows in Practice</a></td>
+      <td></td>
+    </tr>
+   <tr>
+      <td>Friday, Apr 7</td>
+      <td><span class="assignment"><span class="hw">HW 6a due</span>  Framework Design</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Apr 11</td>
+      <td><a href="slides/21-design-patterns-tour.pdf">More Design Patterns</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Apr 12</td>
+      <td><span class="rec">Rec 11.5</span> Refactoring</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 13</td>
+      <td>No class, Carnival</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Apr 18</td>
+      <td><a href="slides/22-static-analysis-typing.pdf">Static Analysis</a>
+        <br />
+        <span class="assignment"><span class="hw">HW 6b due</span>  Framework Implementation</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Apr 19</td>
+      <td><span class="rec">Rec 12</span> Advanced Git Operations</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 20</td>
+      <td><a href="slides/23-devops.pdf">DevOps</a></td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Tue, Apr 25</td>
+      <td><a href="slides/24-containers-and-cloud.pdf">Containers & Cloud</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wed, Apr 26</td>
+      <td><span class="rec">Rec 13</span> Design Pattern Review</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Thu, Apr 27</td>
+      <td><a href="slides/25-finale.pdf">Finale: Toward SE, Teams, Process</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fri, Apr 28</td>
+      <td><span class="assignment"><span class="hw">6c due</span>  Framework Plugins</td>
+      <td></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr class="midterm">
+      <td>Tue, May 2, 1-4pm</td>
+      <td>Final exam</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ## Course Staff
