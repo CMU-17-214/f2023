@@ -1,15 +1,11 @@
----
-typora-copy-images-to: ./figures
----
-
 # Lab 1: Git and Typescript Tooling
 
 During this course, you will become familiar with several popular and industry-relevant software engineering tools, including an IDE, build systems, and automated style checkers for both Java and TypeScript. In this lab, you will set up your environment and explore some tools for getting started with TypeScript. If you encounter problems along the way, work through problems with others and the TAs during the lab session. 
 
 ## Deliverables
 
-- Locally clone your 214 Git repository and commit and push a change README.md file.
-- Install node.js, TypeScript, and an editor/IDE of your choice. Show that you can compile and run the TypeScript starter code of homework 1.
+- [ ] Locally clone your 214 Git repository and commit and push a change README.md file.
+- [ ] Install node.js, TypeScript, and an editor/IDE of your choice. Show that you can compile and run the TypeScript starter code of homework 1.
 
 ## Instructions
 
