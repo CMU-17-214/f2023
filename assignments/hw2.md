@@ -10,25 +10,13 @@ Specifically, you will perform *structural testing* for the Java implementation 
 
 Continue to work with the code from Homework 1. If you have made any changes to file names or interfaces in the provided code in the directories `cards`, `data`, or `ordering` please restore them to the original names and interfaces and do not change them in this assignment.
 
-If you prefer a fresh start,  you can start over by creating a new branch off the first commit in the branch (find id of first commit in branch and follow [instructions](https://stackoverflow.com/questions/7167645/how-do-i-create-a-new-git-branch-from-an-old-commit)) and then copy over your implementation for `RecentMistakesFirstSorter`. The implementation of the command-line parser is not considered for this homework.
+If you prefer a fresh start,  you can start over by creating a new branch off the first commit (find id of the first commit with `git log` in branch and follow these [instructions](https://stackoverflow.com/questions/7167645/how-do-i-create-a-new-git-branch-from-an-old-commit)) and then copy over your implementation for `RecentMistakesFirstSorter`. Your hw1 implementation of the command-line parser is not relevant for this homework.
 
 ## Tasks
 
 ### Part 1: Infrastructure setup
 
-Set up the project so that you can write and execute unit tests. We explain *JUnit* and *ts-jest* both in class and provide an example setup in a lab, but you are welcome to use other test frameworks. Make sure that tests are automatically executed with `mvn test` or `npm test`. We recommend also to identify how you can view test coverage in your IDE or in a generated report.
-
-Additionally ensure that GitHub Actions will execute your TypeScript tests: Add a line ```timeout 2m npm run test``` at the last section of ```typescript.yml``` file in github actions. This might look like this:
-
-```
-# Runs compiler and linter for TS files
-    - name: Run on TS files
-        run: |
-        timeout 2m npm install 
-        timeout 2m npm run compile 
-        timeout 2m npm run lint 
-        timeout 2m npm run test 
-```
+Set up the project so that you can write and execute unit tests. We explain *JUnit* and *ts-jest* both in class and provide an example setup in a lab, but you are welcome to use other test frameworks. Make sure that tests are automatically executed with `mvn test` or `npm test` and as part of the GitHub Actions build. We recommend also to identify how you can view test coverage in your IDE or in a generated report.
 
 
 ### Part 2: Specification-base testing (TypeScript)
@@ -89,7 +77,7 @@ If you used AI tools such as ChatGPT or Copilot for any part of homework 1 or 2,
 
 ## Submitting your work
 
-Always submit all code to GitHub. Once you have pushed your final code there, submit links to your final commit for **both** the java and test-creation branches on Canvas. A link will look like `https://github.com/CMU-17-214/<reponame>/commit/<commitid>`. You can get to these link easily when you click on the last commit (above the list of files) in the GitHub web interface. 
+Always submit all code to GitHub. Once you have pushed your final code there, submit a link to your final commit in the format `https://github.com/CMU-17-214/<reponame>/commit/<commitid>`  on Canvas (the link identifies the right commit and branch for us, in case you do not work in the main branch). You can get this link easily when you click on the last commit (above the list of files) in the GitHub web interface. 
 
 ## Evaluation
 
