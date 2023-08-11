@@ -6,6 +6,7 @@ During this course, you will become familiar with several popular and industry-r
 
 - [ ] Locally clone your 214 Git repository and commit and push a change README.md file.
 - [ ] Install node.js, TypeScript, and an editor/IDE of your choice. Show that you can compile and run the TypeScript starter code of homework 1.
+- [ ] Add a library to the project with npm and use it.
 
 ## Instructions
 
@@ -71,6 +72,14 @@ If you just want to run the code use a terminal or the built-in terminal in VSCo
 **Style checking with ts-standard.** We preconfigured the project with the (very picky) style checker *ts-standard*. It comes preconfigured in the project with `npm run lint` or just run it with `npx ts-standard` (or just `ts-standard` if you installed the package globally). It has a fix option `npx ts-standard --fix` that will automatically fix many issues, which can be very useful. To integrate ts-standard into vscode, install the *StandardJS* extension and in the settings pick ts-standard as the engine.
 
 *Checkpoint:* Install and configure the StandardJS extension. Introduce some style violation to see what it reports (like extra or missing whitespace). Try to fix it automatically with “npx ts-standard --fix”.
+
+### Adding a Library
+
+Add the library [boxen](https://www.npmjs.com/package/boxen) version 4.2.0 as a dependency. You can either directly edit the `package.json` file to add the library to the list of dependencies and then run `npm install` or you can add it with the npm command `npm install --save boxen@4.2.0`. We use a specific version to avoid a recent compability problem.
+
+Now you can use the library in the source code. You can import it with `import boxen from 'boxen'` and use it with something like `console.log(boxen("Flashcards 1.0"))`
+
+Compile and run your code to see that you successfully used the library.
 
 ### Turning in Your Work
 
