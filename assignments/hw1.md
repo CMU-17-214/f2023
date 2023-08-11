@@ -56,7 +56,7 @@ You are free to use any open source library on *Maven Central* or *npm* for this
 **Infrastructure and quality requirements.** 
 
 * Push all your code to GitHub using good practices (e.g., cohesive commits, descriptive commit messages). 
-* Your code should compile and pass automated checks when executed with the build tool (*maven build* or *npm build*). Your code will automatically be executed on [GitHub Actions](https://github.com/features/actions), a continuous integration service. Your build should succeed on GitHub Actions, however, GitHub Actions is not configured as an auto-grader for this assignment and does not perform any tests. Passing GitHub Actions is just a minimum bar, not a sufficient condition for completing the homework. You can find the results of the automated checks in the _Actions_ tab of your GitHub repository.
+* Your code should compile and pass automated checks when executed with the build tool (*maven build* or *npm build*). Your code should automatically be executed on [GitHub Actions](https://github.com/features/actions), a continuous integration service. Your build should succeed on GitHub Actions, however, GitHub Actions is not configured as an auto-grader for this assignment and does not perform any tests. Passing GitHub Actions is just a minimum bar, not a sufficient condition for completing the homework. You can find the results of the automated checks in the _Actions_ tab of your GitHub repository.
 * Follow good design practices as discussed: Hide information where appropriate. Program against interfaces, not against classes.
 * For all new code that you write, follow the style guidelines of the language you are working in ([Java code conventions](https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html), [StandardJS guidelines](https://standardjs.com/)). We have installed tools (CheckStyle and ESlint) that will automatically check conformance to many style guidelines in your repository.
 * If you add libraries, add them as *maven* or *npm* dependencies. Do *not* copy library code into the repository.
@@ -75,9 +75,9 @@ Always push all code to GitHub. Once you have pushed your final code there and a
 
 The assignment is worth 150 points. We will grade the assignment with this rubric:
 
-**New card organizer (55pt):**
+**New card organizer (50pt):**
 
-- [ ] 25: The solution implements the above specification correctly and nothing more for both languages (partial credit 15pt for one language)
+- [ ] 20: The solution implements the above specification correctly and nothing more for both languages (partial credit 15pt for one language)
 - [ ] 5: The TypeScript implementation is reasonably well documented, using the API documentation style of the language.
 - [ ] 5: The Java implementation is reasonably well documented, using the API documentation style of the language.
 - [ ] 5: The TypeScript implementation is clean & concise. It does not introduce unnecessary variables, dead or out-commented code, particularly strange indentation. It follows coding conventions of the language.
@@ -85,18 +85,20 @@ The assignment is worth 150 points. We will grade the assignment with this rubri
 * [ ] 10: The implementation in both languages is well organized and does not expose unnecessary implementation details (encapsulation) and it programs against interfaces, not classes. (partial credit 5pt for one language)
       
 
-**Command-line processing (60pt):**
+**Command-line processing (55pt):**
 
 - [ ] 15: The implementation in both languages makes use of an external library, imported through a package manager (partial credit 10pt for one language)
-- [ ] 25: The implementation in both languages parses and validates target files for card decks and all 4 options listed above. It rejects invalid options or arguments with an error message. Examples of invalid options or arguments include negative numbers for repetitions and organizers that don't exist or contain numbers.  (partial credit 15pt for one language)
+- [ ] 20: The implementation in both languages parses and validates target files for card decks and all 4 options listed above. It rejects invalid options or arguments with an error message. Examples of invalid options or arguments include negative numbers for repetitions and organizers that don't exist or contain numbers.  (partial credit 15pt for one language)
 - [ ] 20: The implementation in both languages responds correctly to the command-line options -- opens the right card deck, uses the right organization strategies, lists help, etc. (partial credit 15pt for one language)
 
-**Infrastructure and style (35pt):**
+**Infrastructure and style (45pt):**
 
 * [ ] 10: The URL submitted to Canvas is in the specified format and links to a specific commit.
+* [ ] 5: The TypeScript build is executed and passes on GitHub Actions.
+* [ ] 5: The Java build is executed and passes on GitHub Actions.
 * [ ] 5: Most commits are reasonably cohesive
 * [ ] 5: Most commit messages are reasonably descriptive
-* [ ] 5: The TypeScript build passes on GitHub Actions, including the automated style checks.
-* [ ] 5: The Java build passes on GitHub Actions, including the automated style checks.
+* [ ] 5: The TypeScript code generally follows the common TypeScript style guidelines (e.g., as checked by ts-standard)
+* [ ] 5: The Java code generally follows the Java style guidelines (e.g., as checked by CheckStyle)
 * [ ] 5: The implementation in both languages does not introduce unnecessary variables, dead or out-commented code, particularly strange indentation. It follows coding conventions of the language. (partial credit 3pt for one language)
 
