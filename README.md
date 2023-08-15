@@ -20,7 +20,7 @@ Tu/Th 2:00 - 3:20 p.m. in TEP 1403
 
 **[Christian Kaestner](https://www.cs.cmu.edu/~ckaestne/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 345, office hours: see calendar
 
-**[Jeremy Lacomis](https://jeremylacomis.com/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 221, office hours: see calendar
+**[Jeremy Lacomis](https://jeremylacomis.com/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 415, office hours: see calendar
 
 Our TAs also provide an additional 15h of office hours each week; see details in the calendar.
 
