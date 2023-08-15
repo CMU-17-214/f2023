@@ -32,6 +32,7 @@ jobs:
         mkdir _site/assignments
         #cp assignments/*.html _site/assignments/
         #rm schedule_.md
+        cp learninggoals.html _site/
 
     - name: Push to gh-pages
       run: |

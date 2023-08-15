@@ -12,7 +12,7 @@ After completing this course, students will:
 - Have experience testing and analyzing your software
 - Understand principles of concurrency and distributed systems
 
-See a more detailed list of [learning goals](https://cmu-17-214.github.io/s2023/learninggoals.html) describing what we want students to know or be able to do by the end of the semester. We evaluate whether learning goals have been achieved through assignments and exams.
+See a more detailed list of [learning goals](https://cmu-17-214.github.io/f2023/learninggoals.html) describing what we want students to know or be able to do by the end of the semester. We evaluate whether learning goals have been achieved through assignments and exams.
 
 ### Coordinates 
 
@@ -20,7 +20,7 @@ Tu/Th 2:00 - 3:20 p.m. in TEP 1403
 
 **[Christian Kaestner](https://www.cs.cmu.edu/~ckaestne/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 345, office hours: see calendar
 
-**[Jeremy Lacomis](https://jeremylacomis.com/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 221, office hours: see calendar
+**[Jeremy Lacomis](https://jeremylacomis.com/)**, [TCS](https://www.covidcast.cmu.edu/visit/july-2021-campus-map) 415, office hours: see calendar
 
 Our TAs also provide an additional 15h of office hours each week; see details in the calendar.
 
