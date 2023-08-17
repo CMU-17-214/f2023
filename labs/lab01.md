@@ -1,20 +1,18 @@
 # Lab 1: Git and Typescript Tooling
 
-During this course, you will become familiar with several popular and industry-relevant software engineering tools, including an IDE, build systems, and automated style checkers for both Java and TypeScript. In this lab, you will set up your environment and explore some tools for getting started with TypeScript. If you encounter problems along the way, work through problems with others and the TAs during the lab session. 
+During this course, you will become familiar with several popular and industry-relevant software engineering tools, including an IDE, build systems, and automated style checkers for both Java and TypeScript. In this lab, you will set up your environment and explore some tools for getting started with TypeScript. The instructions are unusually long, because we try to provide more detailed help for common problems. If you encounter problems along the way, look back at the instructions, work through problems with others, and seek help from the TAs during the lab session. 
 
 
 
 ## Deliverables
 
-- [ ] Locally clone your 214 Git repository and commit and push a change README.md file.
+- [ ] Locally clone your 214 Git repository, fix a typo in the `README.md` file ("assigment" -> "assignment") and commit and push the change.
 - [ ] Install node.js, TypeScript, and an editor/IDE of your choice. Show that you can compile and run the TypeScript starter code of homework 1 on your machine.
-- [ ] Add a library to the project with npm and use it.
+- [ ] Install Java 17, maven, and an IDE of your choice. Run `java --version` to verify it is version 17. Show that you can compile and run the Java starter code of homework 1 on your machine.
 
 
 
-## Instructions
-
-### Setting Up Your Repo 
+## Setting Up Your Repo 
 
 In this and the next lab, we will work with the starter code from homework 1. Each student in 17-214/514 is assigned a GitHub repo per homework assignment. You can create it by following the GitHub Classroom link in the description of Homework 1 on Canvas.
 
@@ -35,11 +33,13 @@ We recommend to learn to use *git* on the command line, but you can also the int
 
 This will download the entire repository to your computer. If you are prompted to input your username and password, make sure that you use your personal access token you created above as the password. 
 
-### TypeScript Tools
+## TypeScript Tools
 
 To run JavaScript applications outside the browser we use Node.js. We write TypeScript code that gets compiled into JavaScript.
 
-**Installing Node.js.** Follow [instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install Node.js on your system. We recommend you install it through [nvm](https://github.com/nvm-sh/nvm). If you’re working on a Windows machine, we recommend using [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) for installing nvm (and subsequently using WSL for all development in this class). 
+### Installing Node.js, npm, and TypeScript
+
+Follow [instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install Node.js on your system. We recommend you install it through [nvm](https://github.com/nvm-sh/nvm). If you’re working on a Windows machine, we recommend using [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) for installing nvm (and subsequently using WSL for all development in this class). 
 
 The following command will automatically download the installation script and update your environment to install it: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`  Verify it installed correctly by running: 
 
@@ -63,7 +63,9 @@ With nvm installed, you can then install Node.js. Run the command `nvm install n
 
 Run `tsc` to compile the TypeScript code. You can find the output in the dist/ directory.
 
-**Installing VSCode.** VSCode is a popular IDE for TypeScript which we recommend for this course. It works for TypeScript out of the box, no further set up needed. 
+### VSCode for TypeScript
+
+VSCode is a popular IDE for TypeScript which we recommend for this course. It works for TypeScript out of the box, no further set up needed. 
 
 Install VSCode following [instructions](https://code.visualstudio.com/) on its homepage or use your operating system's package manager.
 
@@ -73,25 +75,89 @@ Install VSCode following [instructions](https://code.visualstudio.com/) on its h
 
 If you just want to run the code use a terminal or the built-in terminal in VSCode (“New Terminal”) and run `node dist/index.js` to start the compiled program (or `npm run start` for the preconfigured run script in package.json)
 
-**Style checking with ts-standard.** Linters check your code against a style-guide that specifies some good coding conventions (and sometimes annoying nitpicky things). Linters automates the process of checking for common style flaws such as the use of magic numbers. We preconfigured the project with the (very picky) style checker *ts-standard*. It comes preconfigured in the project with `npm run lint` or just run it with `npx ts-standard` (or just `ts-standard` if you installed the package globally). It has a fix option `npx ts-standard --fix` that will automatically fix many issues, which can be very useful. To integrate ts-standard into vscode, install the *StandardJS* extension and in the settings pick ts-standard as the engine.
+### Style checking with ts-standard
+
+Linters check your code against a style-guide that specifies some good coding conventions (and sometimes annoying nitpicky things). Linters automates the process of checking for common style flaws such as the use of magic numbers. We preconfigured the project with the (very picky) style checker *ts-standard*. It comes preconfigured in the project with `npm run lint` or just run it with `npx ts-standard` (or just `ts-standard` if you installed the package globally). It has a fix option `npx ts-standard --fix` that will automatically fix many issues, which can be very useful. To integrate ts-standard into vscode, install the *StandardJS* extension and in the settings pick ts-standard as the engine.
 
 *Checkpoint:* Install and configure the StandardJS extension. Introduce some style violation to see what it reports (like extra or missing whitespace). Try to fix it automatically with “npx ts-standard --fix”.
 
-### Adding a Library
 
-Add the library [boxen](https://www.npmjs.com/package/boxen) version 4.2.0 as a dependency. You can either directly edit the `package.json` file to add the library to the list of dependencies and then run `npm install` or you can add it with the npm command `npm install --save boxen@4.2.0`. We use a specific version to avoid a recent compability problem.
 
-Now you can use the library in the source code. You can import it with `import boxen from 'boxen'` and use it with something like `console.log(boxen("Flashcards 1.0"))`
+## Java Setup
 
-Compile and run your code to see that you successfully used the library.
+### Installing Java 
 
-### Turning in Your Work
+Download and install Java 17. The language used in this class is Java 17. Several vendors provide implementations of Java 17, if in doubt choose the open-source OpenJDK 17. 
 
-For finishing this lab (and all homeworks), you are required to submit your work by pushing changes to your repositories. Throughout the semester you will learn to work with *git*. 
+Installing the right version of Java can sometimes be a bit tricky. If you already use a package manager for your platform (homebrew, apt, snap, scoop, etc) installing Java with that tool is probably the easiest. Below are detailed instructions, but feel free to skim/skip.
 
-Git is a version control system, which is a fancy way to say that you can take *named* snapshots (i.e. make saves) of your code base with it throughout development, and you can easily revert back to any such saves should something go wrong. Sooner or later you will write code that breaks, and you’d wish to “undo” what you wrote. Without git, you’ll have to figure out what you changed and revert them manually, which is time-costly and error-prone. With git, if you made a save when your code was working, you can revert back to that in one command. You also document your work incrementally for others.
+*Note for Windows users:* We recommend installing [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) (Windows Subsystem for Linux) and using it for all your development environments installations and future assignments when following this guide. 
 
-Let's start with the basics:
+**Installing Java using homebrew on MacOS.** Run `brew install openjdk@17` and run the command from the output to create a symbolic link. See [these instructions](https://medium.com/@manvendrapsingh/installing-many-jdk-versions-on-macos-dfc177bc8c2b) for a detailed reference.
+
+**Manual installation and other operating systems.** 
+
+- MacOS. Download the MacOS tar.gz archive from the [OpenJDK website](https://jdk.java.net/archive/). Untar the archive (double click), and move the contained directory (named something like jdk-17.0.2.jdk) to the /Library/Java/JavaVirtualMachines/ directory
+- Linux. If possible, please really use the package manager of your distribution. It will be much easier.
+- Windows. To install OpenJDK, download the Windows zip file from the [OpenJDK website](https://jdk.java.net/java-se-ri/17), and follow the instructions at [this StackOverflow post ](https://stackoverflow.com/questions/52511778/how-to-install-openjdk-11-on-windows/52531093#52531093)to correctly set Windows environment variables. Alternatively, if you wish to just use an install wizard, [download and install the Oracle JDK](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html).
+
+**Managing multiple Java installations.** If you already have existing different versions of Java installed and want to keep them, you can use [jEnv](http://jenv.be) to help manage your installations. As another option, you can set the JAVA_HOME environment variable in your ~/.zshrc or ~/.bash_profile or Windows configuration to point to Java 17 folder (e.g., `export JAVA_HOME=$(/usr/libexec/java_home -v17)`; if you choose this approach, you’ll need to modify the number that comes after -v if you ever want to switch your Java version). If you’re interested in switching between Java versions (not needed in this course), see [here](https://medium.com/@manvendrapsingh/installing-many-jdk-versions-on-macos-dfc177bc8c2b) under the section “Switching JDKs” for instructions on how to do so. 
+
+*Checkpoint:* Confirm your Java installation by inspecting the output of the command `java -version` and `javac -version`. You should see something similar to: *openjdk version "17.0.2" 2022-01-18.* The major version should be 17, any vendor and patch version is okay. 
+
+### Installing Maven
+
+We use Maven as the build tool and package manager for Java in this course. Install a recent version of Maven. You can follow the instructions in [this link](https://www.baeldung.com/install-maven-on-windows-linux-mac) and verify that Maven 3.8.7 or newer is installed.[^1] More information about Maven can be found [here](https://maven.apache.org/what-is-maven.html).
+
+For Mac users, you might find it easiest to install maven using homebrew: `brew install maven`
+
+Explore the `pom.xml` file to see how the project is currently configured.
+
+*Checkpoint:* In your local directory, try to run `mvn install` which will download dependencies and compile the code. You can either type `mvn install` in the terminal or click the Maven tab on the bottom left, scroll down to “install” and press the triangle.
+
+### VSCode for Java
+
+VSCode supports also Java. We recommend VSCode for development in both Java and TypeScript, but you are free to chose others. While IntelliJ and Eclipse are more advanced if you are solely developing in Java, using VSCode for both will save you from having to switch between IDEs which can be tedious. 
+
+**Navigate to the sidebar and look for the extensions symbol (5th from the top) and search for “Extension Pack for Java” and install it locally**. This extension includes linting, test running and debugging, support for Maven (the build automation tool we use for Java projects in this class), and a few other helpful extensions. 
+
+You need to have Java 17 installed for this project. Do not downgrade your Java version if you are asked to, this will break your project. 
+
+*Checkpoint:* You can explore the source files in the IDE.
+
+**Running a Java program in VSCode.** Once you have successfully opened the project and installed Maven, you should be able to view all the starter source files. Try building the program and run the main class.
+
+
+
+![img](/home/ckaestne/Dropbox/work/lectures/214w/labs/figures/vscode-run.png)
+
+To run a program go to the Main class (`Main.java`), you should see a *Run | Debug* prompt above the main method. Click *Run*. You will be able to view the run result at the bottom. You can interact with this program by replying on the console and hitting “enter”.
+
+Alternatively, you can open the `Main.java` file and then open the *Run and Debug* tab on the left sidebar (4th from the top). Pressing Run and Debug will have the same effect as pressing Debug on the prompt above the main method. 
+
+**Passing a command-line argument (you might find this helpful for HW1).** If you want to pass an argument to the program from within VSCode, click *“Create a launch.json file”*. This will open a file containing all of the run configurations. If you’d like to modify this in the future, you can find it in the .vscode folder. 
+
+![img](/home/ckaestne/Dropbox/work/lectures/214w/labs/figures/vscode-launchconfig.png)
+
+Under the configuration named `Launch Main`, you can add the attribute `args` and supply it with your arguments. For example `"args": "--help"`.  You can also supply multiple arguments in the same line: `"args": ["--arg1", "value1", "--arg2", "value2", …]`
+
+For more information on launch configurations and Java debugging in VSCode, see [here](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations).
+
+### Checkstyle for Java
+
+We preconfigured the project with the style checker *CheckStyle*. It is automatically executed as part of compiling and packaging the project with `mvn site (on the command line or in the IDE).
+
+If you’d like to be able to run checkstyle through VSCode’s UI, you can search for and install the [“Checkstyle for Java” extension](https://code.visualstudio.com/docs/java/java-linting#_checkstyle).  To use this extension: Right click the `checkstyle.xml` file and select *“Set the Checkstyle Configuration File”* . Then right click on the file you want to check and select *“Check Code with Checkstyle”*. You can view the checkstyle violations on the problems tab near your terminal. 
+
+*Checkpoint*: Test Checkstyle by renaming one method to start with a capital letter (against Java's style guidelines) and it should complain. A neat thing that this plugin does is automatically lint your code as you write it. You can test this out by opening the “problems” tab and making further changes.
+
+
+
+## Turning in Your Work
+
+For finishing this lab (and all homeworks), you are required to submit your work by pushing changes to your repositories on GitHub. 
+
+The minimal instructions to submit code with Git on the command line are:
 
 ````bash
 git add <filename1> <filename2>
@@ -101,46 +167,10 @@ git push
 
 **git add** adds files to the staging area, **git commit** saves everything on the staging area along with the given commit message, and **git push** records local commits to the remote repository. After pushing changes you should see them on GitHub.
 
-You can also push changes to your repository using the VSCode UI or use [GitHub Desktop](https://desktop.github.com/). In VSCode, the source control tab (3rd from the top) provides you with an interface where you can stage, commit, and push changes. Clicking the + icon on the file stages it to be committed. Once you have staged all of your files, you can use the text box to add a commit message and press commit. You can then use the UI to push. 
+If you are new to Git you will learn to better use it throughout the semester, including best practices and more advanced functionality like branches. We provide more detailed instructions in a [separate document](git-basics.md) but encourage you to find documentation and tutorials on your own too.
 
 
 
 
 
-## Appendix: Understanding Git
-
-**Important Git Concepts:**
-
-- **Git Repository:** A git repository is a database of files and their history. On a local computer it will be stored in a .git directory. A repository on your computer is called a *local repository*, and a (typically shared) repository stored somewhere online (e.g. on GitHub) is called a *remote repository*. 
-- **Git Commit:** A git commit is a snapshot / save of your git repository. You make a save of your code base by making a git commit. A commit has an ID and a description. It follows another commit. You can later revert back to it. 
-- **Working directory:** Code from a git repository can be *checked out* in a directory. This will copy all files from the (typically last) commit from the git database to your directory where you can edit them.
-- **Staging Area:** Before you can make a git commit, you need to specify the files you want to include in your commit. In git you do this by *adding* them to the staging area, where you can double check that you are saving what you want. The *commit* command will create a commit of all files staged, but not of other changed files in your working directory.
-- **Remote Repository:** A remote repository is like a folder on Google Drive. Just like how you could backup your local files online to Google Drive, you can backup your local Git Repository online as a remote repository. This also enables collaboration: remote repositories are usually shared, when your collaborators *push* (upload) new changes to a shared remote repository, you can *fetch* (download) them to your computer. 
-- **Branching:** Git branching allows you to create new development paths for your code. Each path is called a branch. Changes on one branch are independent from changes made on a different branch. Later, if desired, changes from different branches can be merged together. People commonly use branching when implementing new features. They create a new “development branch” and implement new code on it, keeping the default “master branch” clean. If the new code works out, they merge changes from the development branch into the master branch. If it doesn’t work out, they just discard the development branch. This ensures that the master branch always contains working code. 
-
-
-
-![img](https://lh4.googleusercontent.com/dGUCNsOeIKcHSjAEj1XARjgulfXrbndajIB8KfpuJjLvOWFIcEH-Ts6R5bsvViIQf0YxUSBxXtURK0iEmaLh8Zy3BXWHLpgbAWFdpVfG_WAQ6INa3mI_pyzpve0GZLN5FpfK7lPJ0X-ps8ckeqF9JQ)
-
-**Useful Git commands:**
-
-- `git clone <remote repository link>` (Clone, i.e. download in entirety a git repository from a remote location and check it out in a local working directory)
-- `git pull` (Pull, i.e. download, any new changes from the remote repository not previously downloaded and merge them into your local working directory)
-- `git add <filename1> <filename2>...` (Add files to the staging area)
-- `git status` (Shows which files have been changed and which files are on the staging area)
-- `git commit -m "<some message>"` (Make a commit saving everything on the staging area. The save is tagged with a message <some message>)
-- `git log` (List all the commits you’ve made)
-- `git push` (Push, i.e. upload, any new commits you made locally to the remote repository)
-- `git branch "<branch name>"` (Create a new branch named <branch name>)
-- `git checkout <branch name>` (Check out files from the git repository to your local working directory of the branch named <branch name>)
-
-**Useful resources to learn git:**
-
-- [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) 
-
-- - A concise guide for git commands
-
-- [Pro Git book](https://git-scm.com/book/en/v2)
-
-- [Git Game](https://learngitbranching.js.org/?locale=en_US)
-
+[^1]: If you choose to use the instructions linked, the `chown -R root:wheel Downloads/apache-maven*` command should actually be `sudo chown -R root:wheel Downloads/apache-maven*`. If you run into issues with adding Maven to your environment path, try using `~/.zshrc` instead of `~/.zshenv`.
