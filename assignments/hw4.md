@@ -32,26 +32,38 @@ In this assignment, we intentionally will expect you to be very explicit about a
 
 In this assignment you will do multiple small design improvements and one slightly larger redesign to solve a specific problem ("SubSubSubSubSubArticles"). While not fully realistic, to reduce the workload, we will do design improvements without adding new functionality, but it can be seen as preparing for new functionality of adding support for events. 
 
+## Design Problems
+
+In this assignment you will address the following design problems:
+
+1. **Responsibility Assignment** -- fields or methods are in inappropriate places
+2. **Code Duplication** -- duplicate code that could be abstracted and reused using methods, inheritance, delegation, or design patterns
+3. **Coupling** -- unnecessary coupling
+4. **Cohesion** -- objects, classes, or methods that severely violate cohesion (e.g., god class)
+5. **Extensibility** -- unnecessarily difficult to extend code (i.e., require modifications of existing methods, possibly in multiple places)
+6. **Encapsulation** -- object/class violates encapsulation principles
+7. **Instanceof** -- the use of `instanceof` is often an indication of a design problem
+8. **SubSubSubSubSubArticles** -- the way nested articles are represented in the implementation is problematic
 
 ## Task
 
-Your task is to incrementally and in small steps improve the design and implementation of the project to make it easier to maintain and extend in the future. You do not need to implement new functionality. 
+**Improve design:** Your task is to incrementally and in small steps improve the design and implementation of the project to make it easier to maintain and extend in the future. You do not need to implement new functionality. 
 
-*Step 1:* Read the provided `README.md`  file in the code branch you choose (`Java` or `Typescript`) and familiarize yourself with the list of design problems you are supposed to look for. 
+*Step 1:* Look for a design problem in the implementation that fits one of the design problems listed above. You will probably need to spend quite some time getting an overview of the code and understanding parts of it.
 
-*Step 2:* Look for a design problem in the implementation that fits one of the categories of the  `README.md`  file. You will probably need to spend quite some time getting an overview of the code and understanding parts of it.
+*Step 2:* Create a GitHub issue (e.g., "Fix coupling problem") that points out a specific problem and explains *why* the specific code is problematic (e.g., why the coupling is bad in this specific case).
 
-*Step 2.5:* For the "SubSubSubSubSubArticles" problem **only**, create a partial *object model* of the system after your fix, using examples provided in lecture as a guide. It should only involve the classes needed to explain your fix. Make sure the diagram is consistent with your final implemented solution.
+*Step 3:* Fix the design problem and commit the fix with a meaningful commit message. 
 
-*Step 3:* Fix the design problem and commit the fix with a meaningful commit message. If you are having to makes changes to multiple files to fix one design problem, make a commit for each file and indicate which refactoring it is part of in the message.
+*Step 4:* Close the issue with a message that explains *how* you fixed the issue and link the issue to the commit that fixed it. A fix may address multiple problems and the same commit can be linked in multiple issues.
 
-*Step 4:* Fill out the part(s) of  the `README.md`  file that correspond to the fixed problem. A fix may address multiple problems and can be mentioned in multiple sections of the  `README.md`  file.
+*Step 5:* Repeat the steps above until you have addressed all 8 design problems.
 
-*Step 5:* Repeat the steps above until you have addressed all sections of  `README.md` .
+When done, we expect to find 8 closed issues in your repository.
 
-Push all your committed fixes and the changed `README.md`  file to GitHub and submit the URL of your last commit to Canvas.
+You do not need to fix all design problems in the code but only a subset as needed for creating and closing 8 issues corresponding to the 8 design problems above. We expect that different students will fix different problems, and that different students will fix the same problem in different ways -- this is okay, as long as the fix improves the design problem and does not introduce new obvious problems.
 
-You do not need to fix all design problems in the code but only a subset as needed for filling the  `README.md`  file. We expect that different students will fix different problems, and that different students will fix the same problem in different ways -- this is okay, as long as the fix improves the design problem and does not introduce new obvious problems.
+**Document structure change:** For the "SubSubSubSubSubArticles" problem **only**, create a partial *object model* of the system after your fix, using examples provided in lecture as a guide. It should only involve the classes needed to explain your fix. Make sure the diagram is consistent with your final implemented solution.
 
 **Hints for design problems.** The code has many problems, often more than four problems of each kind: Several methods are really in the wrong place. Some methods clearly do a lot more work than they should and depend on knowing details of other objects. Lots of encapsulation violation throughout the code. The way topics are stored is weird. The way sorting is managed seems rather inflexible and repetitive. There is a lot of copy pasted code that could be abstracted, including several methods in several files and entire files. There are lots of `instanceof` checks that are a sign of possibly bad design. Some of these problems may benefit from using a design pattern, but for most problems a design pattern is not needed. Instead reasoning with design heuristics and design principles might be better suited.
 
@@ -79,11 +91,11 @@ Always submit all your changes to GitHub. Once you have pushed your final code t
 The assignment is worth 110 points. We expect to grade the assignment approximately with this rubric:
 
 - [ ] 20pt: The implementation was improved in some from. The improved implementation still compiles on GitHub Actions and provides the same basic functionality as the original implementation. Improvements like supporting deeper nesting of articles or supporting events are okay, but breaking the existing functionality is not. 
-- [ ] 14pt: The fixed implementation better handles articles and subarticles with less code duplication and better implementations for common functionality like `getTopics`, `getSize`, and parent/child relationships. The `README.md` file (section "SubSubSubSubSubArticles") describes why the old implementation was problematic and how it was improved in a way that demonstrates an understanding of design reasoning and the used design pattern. 
- - [ ] 10pt. The branch's directory contains a partial object model in `sub-articles.pdf` that describes the design fix for the "SubSubSubSubSubArticles" problem. It need only include the classes involved with your fix. The diagram should be consistent with the actual implementation, use suitable notation, and be at the right level of abstraction.
-- [ ] 56pt: For each of the 7 sections of the  `README.md`  file after "SubSubSubSubSubArticles" (responsibility assignment, code duplication, coupling, cohesion, extensibility, encapsulation, and instanceof):
-  - [ ] 4pt: The text in the  `README.md` file, in the corresponding section, points out an instance of the problem, describes its location, explains why it is a design issue, and suggests a possible fix. The text demonstrates an understanding of the design problem and solution.
-  - [ ] 4pt: For each instance, we can find the corresponding fix in the implementation based on the provided the description and it indeed improves the design as described without introducing new obvious design problems.
+- [ ] 56pt: For each of the first 7 design problems  (responsibility assignment, code duplication, coupling, cohesion, extensibility, encapsulation, and instanceof; not "SubSubSubSubSubArticles"):
+  - [ ] 4pt: There is an issue on GitHub that (a) names the design problem in the title, (b) identifies an instance of the problem in the code, and (c) explains *why* this is a problem. The issue's text demonstrates an understanding of the design problem.
+  - [ ] 4pt: The issue is (a) closed with (b) a description of the fix and (c) a link to the commit(s) that contain the fix so that we can find the fix in the implementation. The change indeed improves the design as described without introducing new obvious design problems.
+- [ ] 14pt: For "SubSubSubSubSubArticles": An issue (named "SubSubSubSubSubArticles" or similar) describes why the old implementation was problematic. The issue is closed with a description of how it was improved in a way that demonstrates an understanding of design reasoning and the used design pattern.  The fixed implementation better handles articles and subarticles with less code duplication and better implementations for common functionality like `getTopics`, `getSize`, and parent/child relationships. 
+ - [ ] 10pt. The repository contains a partial object model in `sub-articles.pdf` that describes the design fix for the "SubSubSubSubSubArticles" problem. It needs only include the classes involved with your fix. The diagram should be consistent with the actual implementation, use suitable notation, and be at the right level of abstraction.
 - [ ] 10pt: The git commits are cohesive and have meaningful descriptions that indicate what fix they are part of. The changes did not introduce severe style or readability issues. 
 
 *If the submitted link does not have the right format, we will not be able to grade your solution and will assign 0 points.*
