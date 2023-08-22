@@ -80,9 +80,7 @@ The assignment is worth 150 points. We will grade the assignment with this rubri
 - [ ] 20: The solution implements the above specification correctly and nothing more for both languages (partial credit 15pt for one language)
 - [ ] 5: The TypeScript implementation is reasonably well documented, using the API documentation style of the language.
 - [ ] 5: The Java implementation is reasonably well documented, using the API documentation style of the language.
-- [ ] 5: The TypeScript implementation is clean & concise. It does not introduce unnecessary variables, dead or out-commented code, particularly strange indentation. It follows coding conventions of the language.
-- [ ] 5: The Java implementation is clean & concise. It does not introduce unnecessary variables, dead or out-commented code, particularly strange indentation. It follows coding conventions of the language.
-* [ ] 10: The implementation in both languages is well organized and does not expose unnecessary implementation details (encapsulation) and it programs against interfaces, not classes. (partial credit 5pt for one language)
+* [ ] 20: The implementation in both languages is well organized and does not expose unnecessary implementation details (encapsulation) and it programs against interfaces, not classes. (partial credit 15pt for one language)
       
 
 **Command-line processing (55pt):**
@@ -100,5 +98,5 @@ The assignment is worth 150 points. We will grade the assignment with this rubri
 * [ ] 5: Most commit messages are reasonably descriptive
 * [ ] 5: The TypeScript code generally follows the common TypeScript style guidelines (e.g., as checked by ts-standard)
 * [ ] 5: The Java code generally follows the Java style guidelines (e.g., as checked by CheckStyle)
-* [ ] 5: The implementation in both languages does not introduce unnecessary variables, dead or out-commented code, particularly strange indentation. It follows coding conventions of the language. (partial credit 3pt for one language)
+* [ ] 5: The implementation in both languages is clean and concise. It does not introduce unnecessary variables or dead or out-commented code. 
 
