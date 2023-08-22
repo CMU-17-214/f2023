@@ -129,7 +129,7 @@ You need to have Java 17 installed for this project. Do not downgrade your Java 
 
 
 
-![img](/home/ckaestne/Dropbox/work/lectures/214w/labs/figures/vscode-run.png)
+![img](figures/vscode-run.png)
 
 To run a program go to the Main class (`Main.java`), you should see a *Run | Debug* prompt above the main method. Click *Run*. You will be able to view the run result at the bottom. You can interact with this program by replying on the console and hitting “enter”.
 
@@ -137,7 +137,7 @@ Alternatively, you can open the `Main.java` file and then open the *Run and Debu
 
 **Passing a command-line argument (you might find this helpful for HW1).** If you want to pass an argument to the program from within VSCode, click *“Create a launch.json file”*. This will open a file containing all of the run configurations. If you’d like to modify this in the future, you can find it in the .vscode folder. 
 
-![img](/home/ckaestne/Dropbox/work/lectures/214w/labs/figures/vscode-launchconfig.png)
+![img](figures/vscode-launchconfig.png)
 
 Under the configuration named `Launch Main`, you can add the attribute `args` and supply it with your arguments. For example `"args": "--help"`.  You can also supply multiple arguments in the same line: `"args": ["--arg1", "value1", "--arg2", "value2", …]`
 
