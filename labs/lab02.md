@@ -28,7 +28,7 @@ Demonstrate those practices with all commits you do in this lab and also in all 
 
 ## Improving Encapsulation
 
-Fork and clone this repository: https://github.com/CMU-17-214/f22-rec02.
+Fork and clone this repository: https://github.com/CMU-17-214/f23-lab02.
 
 This repository contains equivalent starter code in both Java and TypeScript. You will complete this task in both languages.
 
