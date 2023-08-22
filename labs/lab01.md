@@ -41,7 +41,7 @@ To run JavaScript applications outside the browser we use Node.js. We write Type
 
 Follow [instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install Node.js on your system. We recommend you install it through [nvm](https://github.com/nvm-sh/nvm). If you’re working on a Windows machine, we recommend using [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) for installing nvm (and subsequently using WSL for all development in this class). 
 
-The following command will automatically download the installation script and update your environment to install it: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash`  Verify it installed correctly by running: 
+The following command will automatically download the installation script and update your environment to install it: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash`  Verify it installed correctly by running: 
 
 `command -v nvm`, which should output nvm.
 
