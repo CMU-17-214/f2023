@@ -95,8 +95,10 @@ The assignment is worth 100 points. We will grade the assignment with this rubri
 - [ ] 20: Test cases achieve perfect branch coverage on the required classes (10pt partial credit for >90% branch coverage).
 
 **Test Quality (20pt)**
-
-- [ ] 15: Tests are independent, cohesive, small, avoid excessive redundancies (we will analyze 5 randomly sampled tests).
+We will analyze 5 randomly sampled tests:
+- [ ] 5: Tests are independent.
+- [ ] 5: Tests are cohesive and small.
+- [ ] 5: Tests avoid excessive redundancies.
 - [ ] 5: Tests are readable (e.g., meaningful names, comments).
 
 **Infrastructure and style (20pt):**
