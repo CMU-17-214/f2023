@@ -85,12 +85,12 @@ The assignment is worth 100 points. We will grade the assignment with this rubri
 
 * [ ] Submissions that do not provide a link in the expected format can not be graded and will not receive credit.
 
-**Specification Tests (30pt):**
+**Specification-based Tests in TypeScript (30pt):**
 
 - [ ] 10: No tests fail on a correct implementation. We will swap out the code in `cards`, `data`, and `ordering` for five different correct implementations of the provided specification. Points will be awarded proportional to the number of implementations that pass your test suite.
 - [ ] 20: At least one test fails for each of about 20 bugs we introduce in an otherwise correct implementation. We will run your code against multiple new implementations in `cards`, `data`, and `ordering` that are entirely correct except for a single bug. One or more of your tests should fail because of said bug. Points will be awarded proportional to the number of bugs discovered by your test suite.
 
-**Structural Tests (20pt):**
+**Structural Tests in Java (20pt):**
 
 - [ ] 20: Test cases achieve perfect branch coverage on the required classes (10pt partial credit for >90% branch coverage).
 
