@@ -55,7 +55,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Aug 30</td>
-      <td><span class="rec">Lab 1</span> IDEs, Build systems, Libraries, CI</td>
+      <td><span class="rec">Lab 1</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab01.md">Course Infrastructure Setup</a></td>
       <td></td>
     </tr>
     <tr class="">
@@ -72,7 +72,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Sep 6</td>
-      <td><span class="rec">Lab 2</span>  Introduction to Git</td>
+      <td><span class="rec">Lab 2</span>  <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab02.md">Encapsulation</a></td>
       <td></td>
     </tr>
     <tr class="">
@@ -84,7 +84,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Sep 11</td>
-      <td><span class="assignment"><span class="hw">HW 1 due</span> Intro to OO and Libraries</td>
+      <td><span class="assignment"><span class="hw">HW 1 due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw1.md">Flash cards</a> (Intro to OO and Libraries)</td>
       <td></td>
     </tr>
     <tr class="">
@@ -106,7 +106,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Sep 18</td>
-      <td><span class="assignment"><span class="hw">HW 2 due</span> Testing</td>
+      <td><span class="assignment"><span class="hw">HW 2 due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw2.md">Testing</a></td>
       <td></td>
     </tr>
     <tr class="">
@@ -145,7 +145,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Oct 2</td>
-      <td><span class="assignment"><span class="hw">HW 3a due</span> Santorini: Intro to Design</td>
+      <td><span class="assignment"><span class="hw">HW 3a due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw3.md">Santorini: Intro to Design</a></td>
       <td></td>
     </tr>
     <tr class="">
@@ -167,7 +167,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Oct 9</td>
-      <td><span class="assignment"><span class="hw">HW 3b due</span> Santorini: Design feedback</td>
+      <td><span class="assignment"><span class="hw">HW 3b due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw3.md">Santorini: Design feedback</a></td>
       <td></td>
     </tr>
     <tr>
@@ -205,7 +205,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Oct 23</td>
-      <td><span class="assignment"><span class="hw">HW 4 due</span> Refactoring</td>
+      <td><span class="assignment"><span class="hw">HW 4 due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw4.md">Refactoring</a></td>
       <td></td>
     </tr>
     <tr>
@@ -226,7 +226,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Oct 30</td>
-      <td><span class="assignment"><span class="hw">HW 3c due</span> Santorini: Final design</td>
+      <td><span class="assignment"><span class="hw">HW 3c due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw3.md">Santorini: Final design</a></td>
       <td></td>
     </tr>
     <tr>
