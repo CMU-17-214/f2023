@@ -1,4 +1,4 @@
-# Lab 1: Git and Typescript Tooling
+# Lab 1: Course Infrastructure Setup
 
 During this course, you will become familiar with several popular and industry-relevant software engineering tools, including an IDE, build systems, and automated style checkers for both Java and TypeScript. In this lab, you will set up your environment and explore some tools for getting started with TypeScript. The instructions are unusually long, because we try to provide more detailed help for common problems. If you encounter problems along the way, look back at the instructions, work through problems with others, and seek help from the TAs during the lab session. 
 
