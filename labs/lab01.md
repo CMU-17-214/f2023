@@ -14,7 +14,7 @@ During this course, you will become familiar with several popular and industry-r
 
 ## Setting Up Your Repo 
 
-In this and the next lab, we will work with the starter code from homework 1. Each student in 17-214/514 is assigned a GitHub repo per homework assignment. You can create it by following the GitHub Classroom link in the description of Homework 1 on Canvas.
+In this lab, we will work with the starter code from homework 1. Each student in 17-214/514 is assigned a GitHub repo per homework assignment. You can create it by following the GitHub Classroom link in the description of [Homework 1 on Canvas](https://canvas.cmu.edu/courses/35846/assignments/607925).
 
 - If you do not have *git* yet, follow the [download instructions](https://git-scm.com/downloads).
 - If you do not have a *GitHub* account yet, [create one](https://github.com/). 
