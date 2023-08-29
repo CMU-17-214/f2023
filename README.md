@@ -50,7 +50,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr class="">
       <td>Tue, Aug 29</td>
-      <td>Introduction</td>
+      <td><a href="https://docs.google.com/presentation/d/1vRc_5v3i0awRzYNhqqLF1Szrf9mHA1QYEjKD-T8svX4/edit#slide=id.p1">Introduction</a></td>
       <td></td>
     </tr>
     <tr>
