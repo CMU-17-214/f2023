@@ -12,11 +12,11 @@ You should use an IDE to load and edit the projects. We recommend [VSCode](https
 
 ## Tasks
 
-**Task 1: Implement new card organizer.** Implement a new card organizer **RecentMistakesFirstSorter** by creating a class that implements the `CardOrganizer` interface. The organizer should work as follows: *"Orders the cards so that those that were answered incorrectly in the last round appear first. This reordering should be stable: it does not change the relative order of any pair of cards that were both answered correctly or incorrectly. So, if no cards were answered incorrectly in the last round, this does not change the cards' ordering."* 
+**Task 1: Implement new card organizer.** Implement a new card organizer **RecentMistakesFirstSorter** by creating objects that implement the `CardOrganizer` interface. The organizer should work as follows: *"Orders the cards so that those that were answered incorrectly in the last round appear first. This reordering should be stable: it does not change the relative order of any pair of cards that were both answered correctly or incorrectly. So, if no cards were answered incorrectly in the last round, this does not change the cards' ordering."* 
 
 Starting points: try to dissect the specification into its main components.  What should the behavior be under "typical" inputs (e.g., one card with a recent failure, one without; cards with several successes and failures), and what scenarios does it outline as exceptions? Do avoid implementing anything extra that is not part of the specification. 
 
-Be sure to name your new sorter `RecentMistakesFirstSorter` in Java and `newRecentMistakesFirstSorter` in TypeScript. Your sorter should implement the *CardOrganizer* interface.
+We recommend to name your new sorter `RecentMistakesFirstSorter` in Java and `newRecentMistakesFirstSorter` in TypeScript. Your sorter should implement the *CardOrganizer* interface.
 
 Note that only a relatively small amount of code is necessary to implement this new class, regardless of language. Only minimal changes will be required outside of your new class, in particular to test the new sorter by using it in place of the sorter the code starts with (`CardShuffler`/`newCardShuffler`). 
 
