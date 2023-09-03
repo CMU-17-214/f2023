@@ -17,7 +17,7 @@ In this lab you will get familiar with different testing strategies and practice
 ## Instructions
 
 ### Setup
-Fork and clone the repo from https://github.com/CMU-17-214/f22-rec03.
+Fork and clone the repo from https://github.com/CMU-17-214/f23-rec03.
 The code is set up with JUnit and ts-jest. You can use your IDE to open the folder of each language and run the existing test with the command in the readme.txt. You can also see Appendix 1 for how to run tests in IDE. 
 
 
