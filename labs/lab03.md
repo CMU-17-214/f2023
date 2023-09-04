@@ -24,10 +24,13 @@ The code is set up with JUnit and ts-jest. You can use your IDE to open the fold
 ### Testing
 Write additional tests for code we've provided and use a code coverage tool to measure the coverage of your unit tests. 
 
+#### TypeScript
 For LinkedIntQueue you will need to use specification-based testing, because the source code for LinkedIntQueue is not provided. Your tests will be based on the specified functionality of the IntQueue interface rather than the code of the underlying LinkedIntQueue implementation. 
 1. Open TypeScript folder with IDE. Read the comments for the IntQueue interface in queue.js file, and familiarize yourself with each method. 
 2. Run queue.test.ts file(see readme.txt for instructions). Write more test cases to finish the specification testing for LinkedIntQueue. See Appendix 2 for notation.
 
+
+#### Java
 For ArrayIntQueue use structural testing. Specifically test underlying implementation of the ArrayIntQueue class, not just test against the IntQueue specification. 
 1. Open Java folder with IDE. Run IntQueueTest class in the IDE (see readme.txt). Change the mQueue variable to ArrayIntQueue and run testing again. Use your IDE to see the line coverage result. See appendix 3 for coverage tooling. 
 2. Try to find 2 bugs in ArrayIntQueue by running your test. Fix each bug that was found. 
