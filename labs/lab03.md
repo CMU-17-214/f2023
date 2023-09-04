@@ -33,12 +33,6 @@ For ArrayIntQueue use structural testing. Specifically test underlying implement
 2. Try to find 2 bugs in ArrayIntQueue by running your test. Fix each bug that was found. 
 3. Write more test cases to achieve 100% code coverage. Hint: you also need to write tests for ensureCapacity. It is fine if you don’t have time to finish it during the class.
 
-
-## Best testing practices
-You were previously encouraged to read this post on unit testing best practices: https://www.testim.io/blog/unit-testing-best-practices/
-
-Consider the code in *sortArr*. It contains **a single test for a method called sortArr**. Go through the best practices discussed in the article above and identify which ones are violated. Furthermore, discuss how you would improve the test(s) to mitigate these concerns. You can but are not required to actual change the code.
-
 ## Appendix 1: Test Integration in VSCode
 The Java plugin and Jest (for Javascript) plugin in VSCode provide great test integration functionality. The testing side panel shows all the tests of the current project. You can also run all tests or a particular test here.
 
