@@ -11,7 +11,7 @@ In this lab you will get familiar with different testing strategies and practice
 
 - [ ] Write tests for `LinkedIntQueue` in TypeScript and `ArrayIntQueue` in Java and execute them from within the IDE.
 - [ ] Achieve 100% line coverage for `ArrayIntQueue` and show coverage results in the IDE or as HTML report. 
-- [ ] Compare structural testing vs specification testing and analyze tradeoffs. 
+- [ ] Describe tradeoffs between structural testing and specification testing to the TA. (no written answer needed) 
 
 
 ## Instructions
