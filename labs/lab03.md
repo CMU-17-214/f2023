@@ -39,11 +39,11 @@ For `ArrayIntQueue` use structural testing. Specifically test underlying impleme
 ## Appendix 1: Test Integration in VSCode
 The Java plugin and Jest (for Javascript) plugin in VSCode provide great test integration functionality. The testing side panel shows all the tests of the current project. You can also run all tests or a particular test here.
 
-![lab03_test_side_panel](../../f2023/images/lab03/lab03_test_side_panel.png)
+![lab03_test_side_panel](images/lab03/lab03_test_side_panel.png)
 
 After running the test cases, the plugin also shows the failed test cases. Also, you can direct to the failed assertions, and VSCode can show the concrete reasons for the failures.
 
-![lab03_test_example](../../f2023/images/lab03/lab03_test_example.png)
+![lab03_test_example](images/lab03/lab03_test_example.png)
 
 ## Appendix 2: Test Directories For Java
 By convention in Maven, test files are placed in a test folder with the path `src/test/java`. You may need to create this directory if it does not exist. In some IDEs you may need to indicate that this directory contains test files for the IDE to recognize and run the classes. In this directory create the same package structure as in `src/main/java` and place the test class in the same package as the class to be tested. 
@@ -54,7 +54,7 @@ By convention in Maven, test files are placed in a test folder with the path `sr
 In Java, we already set up the project to use Jacoco for collecting Coverage. If you run `mvn test` or `mvn site` to execute the tests, it will produce a report in `target/site/jacoco/index.html`. You can check the pom.xml file to see how we enabled this. Open with a browser to view the coverage report.
 
 Your jacoco report should be similar to this when viewed in the browser.
-![lab03_jacoco_report](../../f2023/images/lab03/lab03_jacoco_report.png)
+![lab03_jacoco_report](images/lab03/lab03_jacoco_report.png)
 
 In IntelliJ you can run tests with Coverage directly from within your IDE: Right click on test class and select **Run '$classname' with Coverage**; there should be a panel that pops up the right side of the screen showing class coverage.
 
