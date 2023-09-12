@@ -99,7 +99,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Thu, Sep 14</td>
-      <td>Object-oriented analysis and UML</td>
+      <td><a href="https://docs.google.com/presentation/d/1Nn0wdo9P18k99FhOKzGZF4s1atWdq1QOXmktYmAhFdI/edit?usp=sharing">Object-oriented analysis and UML</a></td>
       <td></td>
     </tr>
   </tbody>
@@ -111,7 +111,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Tue, Sep 19</td>
-      <td>Responsibility assignment</td>
+      <td><a href="https://docs.google.com/presentation/d/1iLHBEwPprITyfepdJa6MxGOpAMhLcNkSd02-wm6jgaQ/edit?usp=sharing">Responsibility assignment</a></td>
       <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9-11, 15-17</td>
     </tr>
     <tr>
