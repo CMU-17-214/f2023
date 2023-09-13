@@ -434,7 +434,7 @@ Any work submitted beyond the flexibility provided by these mechanisms will rece
 
 This course, including recitations, is marked by the registrar as IPE ("delivered in-person, students are expected to be in the classroom during the course's scheduled meeting time"). We do not plan to make accommodations for remote attendance.
 
-We strongly recommend attending lectures, but will typically accept participation also for completing quizzes and activities asynchronously within 3 days of the lecture (see lecture slides). Attending recitations is required for grading labs.
+We strongly recommend attending lectures. We have regular in-class activities and quizzes that we expect you to complete in class. Attending recitations is required for grading labs.
 
 In case of illness, quarantine, or other exceptional circumstances, we may be able to share recordings of lectures upon request on a case by case basis. Recordings may not be shared to protect the FERPA rights of all students in the classroom. 
 
