@@ -14,11 +14,11 @@ During lecture, we discussed how we analyze problems, design solutions, and comm
 Suppose you are designing and implementing a simplified version of one of your favorite games, Blackjack, where a single player plays against an automated dealer. 
 Here is a short description of the game: 
 
-   The objective of Blackjack is to obtain a score higher than the dealer. In each round the **player** and the **dealer** are initially dealt 2 **cards**, with one of the dealer’s cards dealt face down. Each numerical card (2-9) is worth its **face value**, aces are worth either 1 or 11 (it is the player’s choice), and all face cards (ten, jack, queen, and king) are worth 10. 
+   The objective of Blackjack is to obtain a score higher than the dealer. In each round the **players** and the **dealer** are initially dealt 2 **cards**, with one of the dealer’s cards dealt face down. Each numerical card (2-9) is worth its **face value**, aces are worth either 1 or 11 (it is the player’s choice), and all face cards (ten, jack, queen, and king) are worth 10. 
    
-   At the beginning of each round the player must place a **_bet_**; this amount will not change for the rest of the round. After the bet, the player repeatedly decides whether to **hit** (be dealt a new card, up to 5 cards in the player’s hand) or **stand** (stop being dealt cards). If the player **scores** more than 21 points, the player loses their bet and the round. 
+   At the beginning of each round each player must place a **_bet_**; this amount will not change for the rest of the round. After the bet, the first player repeatedly decides whether to **hit** (be dealt a new card, up to 5 cards in the player’s hand) or **stand** (stop being dealt cards). If the player **scores** more than 21 points, the player loses their bet. 
    
-   After the player stands, the dealer exposes her face-down card and must hit (be dealt cards) until the value of their cards is more than 16. If the _player’s score_ is more than the dealer’s final score (but less than or equal to 21) then the player wins an amount equal to their bet. The player also wins if they are dealt 5 cards worth 21 or fewer points. 
+   After the player stands, the next player takes their turn until all players have either stood or lost. Then, the dealer exposes their face-down card and must hit (be dealt cards) until the value of their cards is more than 16. If a _player’s score_ is more than the dealer’s final score (but less than or equal to 21) then the player wins an amount equal to their bet. A player also wins if they are dealt 5 cards worth 21 or fewer points. 
    
    Otherwise, the player loses their bet. More information can be found on<span style="text-decoration:underline;"> Wikipedia’s</span> <span style="text-decoration:underline;">Blackjack page.</span>
 
