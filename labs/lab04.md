@@ -44,7 +44,7 @@ Create a _system sequence diagram_ to model the interactions of a single player 
 ### Object Model
 
 Here is a proposed object model for Blackjack: [https://drive.google.com/file/d/1XlAhszdys8pGbY4KSNXUnqZS9hw5LIm_/view?usp=sharing](https://drive.google.com/file/d/1XlAhszdys8pGbY4KSNXUnqZS9hw5LIm_/view?usp=sharing).
-![lab04-object-model-problem](images/lab04/lab04_object_model_problem.jpg)
+![lab04-object-model-problem](images/lab04/blackjack_object_problem.jpg)
 
 There are several poor design choices shown by the object model, involving low cohesion and high coupling. Find and correct two of these design problems on the object model. 
 
