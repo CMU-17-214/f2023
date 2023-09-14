@@ -6,7 +6,7 @@ During lecture, we discussed how we analyze problems, design solutions, and comm
 
 - [ ] Create a domain model for Blackjack as described below, and a system sequence diagram for Blackjack, for the case of a single player starting a new game and playing one round of Blackjack.
 - [ ] Find and fix two problems with coupling/cohesion in the provided object model.
-- [ ] Create an object-level interaction diagram for a player choosing to hit in a round of Blackjack, consistent with your fixed object model and system sequence diagram..
+- [ ] Create an object-level interaction diagram for a player choosing to hit in a round of Blackjack, consistent with your fixed object model and system sequence diagram.
 
 ## Instructions
 
@@ -44,8 +44,9 @@ Create a _system sequence diagram_ to model the interactions of a single player 
 ### Object Model
 
 Here is a proposed object model for Blackjack: [https://drive.google.com/file/d/1XlAhszdys8pGbY4KSNXUnqZS9hw5LIm_/view?usp=sharing](https://drive.google.com/file/d/1XlAhszdys8pGbY4KSNXUnqZS9hw5LIm_/view?usp=sharing).
+![lab04-object-model-problem](images/lab04/lab04_object_model_problem.jpg)
 
-There are two poor design choices shown by the object model, involving low cohesion and high coupling. Find and correct these two design problems on the object model.
+There are several poor design choices shown by the object model, involving low cohesion and high coupling. Find and correct two of these design problems on the object model. 
 
 ### Interaction Diagram
 
