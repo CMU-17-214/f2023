@@ -89,7 +89,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Tue, Sep 12</td>
-      <td>Test case design</td>
+      <td><a href="https://docs.google.com/presentation/d/17AHtUe8c4K_negMF1EAW8c7t1UHD7nU6ipd-csegL14/edit?usp=sharing">Test case design</a></td>
       <td><a href="https://www.testim.io/blog/unit-testing-best-practices/">Unit Testing Best Practices</td>
     </tr>
     <tr>
@@ -99,7 +99,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Thu, Sep 14</td>
-      <td>Object-oriented analysis and UML</td>
+      <td><a href="https://docs.google.com/presentation/d/1Nn0wdo9P18k99FhOKzGZF4s1atWdq1QOXmktYmAhFdI/edit?usp=sharing">Object-oriented analysis and UML</a></td>
       <td></td>
     </tr>
   </tbody>
@@ -111,12 +111,12 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Tue, Sep 19</td>
-      <td>Responsibility assignment</td>
+      <td><a href="https://docs.google.com/presentation/d/1iLHBEwPprITyfepdJa6MxGOpAMhLcNkSd02-wm6jgaQ/edit?usp=sharing">Responsibility assignment</a></td>
       <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9-11, 15-17</td>
     </tr>
     <tr>
       <td>Wed, Sep 20</td>
-      <td><span class="rec">Lab 4</span> Design and UML</td>
+      <td><span class="rec">Lab 4</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab04.md">Design and UML</a></td>
       <td></td>
     </tr>
     <tr class="">
@@ -434,7 +434,7 @@ Any work submitted beyond the flexibility provided by these mechanisms will rece
 
 This course, including recitations, is marked by the registrar as IPE ("delivered in-person, students are expected to be in the classroom during the course's scheduled meeting time"). We do not plan to make accommodations for remote attendance.
 
-We strongly recommend attending lectures, but will typically accept participation also for completing quizzes and activities asynchronously within 3 days of the lecture (see lecture slides). Attending recitations is required for grading labs.
+We strongly recommend attending lectures. We have regular in-class activities and quizzes that we expect you to complete in class. Attending recitations is required for grading labs.
 
 In case of illness, quarantine, or other exceptional circumstances, we may be able to share recordings of lectures upon request on a case by case basis. Recordings may not be shared to protect the FERPA rights of all students in the classroom. 
 
