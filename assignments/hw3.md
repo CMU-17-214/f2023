@@ -1,6 +1,6 @@
 # Homework 3: Santorini (Part 1)
 
-In this assignment, you will design and implement the core logic of a board game called Santorini (2 players, without god cards) in and only in Java and you will review other designs for this game. The focus of this assignment is on considering design alternatives for code. This assignment is intended as a gentle introduction to modeling on a relatively simple problem. It is intended to be low stakes and you will have opportunities to receive feedback and learn from mistakes. In Homework 6, we will revisit the game and extend it with god cards and with a GUI. 
+In this assignment, you will design and implement the core logic of a board game called Santorini (2 players, without god cards) in either Java or TypeScript (not both) and you will review other designs for this game. The focus of this assignment is on considering design alternatives for code. This assignment is intended as a gentle introduction to modeling on a relatively simple problem. It is intended to be low stakes and you will have opportunities to receive feedback and learn from mistakes. In Homework 6, we will revisit the game and extend it with god cards and with a GUI. 
 
 **This homework has 3 milestones:**
 
@@ -40,53 +40,33 @@ We strongly recommend to not auto-generated models from code with tools, as thos
 
 **Deliverable 2: System sequence diagram.** Create a system sequence diagram identifying all interactions between a user and the system when the user plays the game. The system sequence diagram should help you determine what interactions the high-level system makes available to its users. For more information on system sequence diagrams, see Chapter 10 of Larman’s Applying UML and Patterns. Turn this in as <code>system-sequence-diagram.pdf</code>.
 
-**Deliverable 3: Behavioral contract.** Provide behavioral contracts for the following interaction initiated by the user: _The user attempts to move a worker_. The contract should explicitly describe the preconditions and postconditions for the interaction, and your behavioral contract should be consistent with your domain model and interaction diagrams. Constructing behavioral contracts should help you envision important changes of internal state of the game when a player interacts with the game. You may provide explicit examples to clarify your contract. For more information on contracts, see Chapter 11 of Larman’s Applying UML and Patterns. Turn this in as <code>contract.pdf</code> or <code>contract.md</code>.
+**Deliverable 3: Behavioral contract.** Provide behavioral contracts for the following interaction initiated by the user: _The user attempts to move a worker_. The contract should explicitly describe the preconditions and postconditions for the interaction, and your behavioral contract should be consistent with your domain model and interaction diagrams. Constructing behavioral contracts should help you envision important changes of internal state of the game when a player interacts with the game. You may provide explicit examples to clarify your contract. For more information on contracts, see Chapter 11 of Larman’s Applying UML and Patterns. Turn this in as <code>contract.pdf</code>.
 
-**Deliverable 4: Justification.** Write a short report that answers the following questions to justify your design choices. 
+**Deliverable 5: Object model.** Create an object model of your game, documented as a UML class diagram. The object model should describe the classes and interfaces of your design, as well as their key associations (with cardinalities), attributes, and methods. For more information on class diagrams, see Chapter 16 of Larman’s Applying UML and Patterns. Model only the core of the game, not GUI elements or test code. Turn this in as `object-model.pdf`.
 
-1. How can a player interact with the game? What are the possible actions?
+**Deliverable 4: Justification for handling state.** The implementation needs to store state about the status of the game (at least players, current player, worker locations, towers, and winner). One key design question is usually what objects should store what state. For each kind of state the game needs to store explain where you store it. Provide a justification (with reference to design goals/principles/heuristics) for your responsibility assignment for state; discuss the alternatives you had considered and the trade-offs they entailed that led you to choose this particular design (essentially, your design process). Ensure that your answer is consistent with your object model. Turn this in as `state-justification.pdf`.
 
-2. What state does the game need to store? Where is it stored? Include the necessary parts of an **object model** to support your answer. For more information on class diagrams, see Chapter 16 of Larman’s Applying UML and Patterns.
-
-3. How does the game determine what is a valid build (either a normal block or a dome) and how does the game perform the build? Include the relevant parts of an **object-level interaction diagram** (using method names and calls) to support your answer. For more information on interaction diagram notation, see Chapter 15 of Larman’s Applying UML and Patterns.
-
-To receive full credit, each of your answers to these questions must both:
-
-* Refer to design goals, principles, and patterns where appropriate. 
-* Discuss the alternatives you had considered and the trade-offs they entailed that led you to choose this particular design (essentially, your design process).
-
-Turn this in as `justification.pdf` or `justification.md` (and include diagrams if needed).
+**Deliverable 5: Interaction for building.** Reason about how the implementation determines what is a valid build (either a normal block or a dome) and how it performs the build. Identify what actions are needed and which objects and methods are responsible for performing those actions. Provide a justification (with reference to design goals/principles/heuristics) for your decision on assigning responsibilities; discuss the alternatives you had considered and the trade-offs they entailed that led you to choose this particular design (essentially, your design process). Include the relevant parts of an **object-level interaction diagram** (using method names and calls) for your final design. For more information on interaction diagram notation, see Chapter 15 of Larman’s Applying UML and Patterns. Turn this in as `build-justification.pdf` containing both the text of your answer and the interaction diagram.
 
 
 
-**Summary of Design deliverables:**
+In summary, we expect 6 files for the design part of this assignment: `/domain-model.pdf`, `/system-sequence-diagram.pdf`, `/contract.pdf` (for moving a worker), `/object-model.pdf`, ``/state-justification.pdf` (for responsibility assignment regarding state), and `build-justification.pdf` (for responsibility assignment regarding the build action). 
 
-* `/domain-model.pdf`
-    * domain model of Santorini
-* `/system-sequence-diagram.pdf`
-    * system sequence diagram
-* `/contract.pdf` (or .md)
-    * behavioral contracts for “The user attempts to move a worker”
-* `/justification.pdf` (or .md)
-    * Question 1 written answer
-    * Question 2 written answer
-        * Necessary parts of object model
-    * Question 3 written answer
-        * Necessary parts of object-level interaction diagram
-
-To submit these documents, push them to the root directory of your Santorini repository on Github. 
+To submit these documents, (a) push them to the root directory of your Santorini repository on Github and (b) submit them as a zip file for peer review to Canvas. Do not include your andrewId or name in any of the documents so that peer review can be performed anonymously.
 
 ### Implementation & Test
 
-Implement the game **in and only in Java** based on your design and test it. As usual, document your code using Javadoc for all public functions.
+Implement the game **either** in Java or TypeScript (not both). As usual, document your code for all public functions.
 
 It is encouraged that your tests should include unit tests as well as integration tests that set up the game and play sequences of turns. To achieve that, it is a good strategy to write tests while you implement each function, and go back to add a little more tests in case you missed any important test cases and functionality after you complete your implementation.
 
 There is no specific numeric goal for testing (neither for your codes or for our grading), but we expect to see tests of individual key functions (e.g. move and build functions) and tests of sequences of multiple actions of game play. But we are NOT looking for coverage of every possible corner case, and we will NOT inject bugs to evaluate the bug-finding ability of your test suites like Homework 2. Remember that this homework is not all about tests, and you should not spend too much time writing **complete** test suites. However, as a useful and necessary step in software construction, tests are helpful in that they can help you build confidence that your implementation is correct at a high level and that your interfaces are easy to use. 
 
-We would like you to run your code by calling the methods directly. We do not expect a user interface, either in command line or graphical, in this assignment. You may find it useful to create a simple command line UI when you are developing the code, but we don’t expect you to implement or test a command line UI as part of your program/testing.
+We would like you to run your code by calling the methods directly. We do not expect a user interface, either in command line or graphical, in this assignment. You may find it useful to create a simple command line interface when you are developing the code, but we don’t expect or recommend that you do so.
 
-You should update your design documents from milestone 3a based on insights gained from the implementation. We expect that the submitted models and code align.
+Your implementation should determine when somebody has won by moving to the third level. You do not need to detect that a player won because the other player cannot move.
+
+You should update your design documents from milestone 3a based on insights gained from the implementation. You can develop models and code in any order and typically there will be some iteration. However, we expect that the submitted final models and code align.
 
 **Deliverables:** Commit all your code to your GitHub repository and ensure that your project is built and tested on Github Actions -- which you will need to set up yourself (see appendix 3). 
 
@@ -94,7 +74,7 @@ You should update your design documents from milestone 3a based on insights gain
 
 You will review other solutions to milestone 3a and will point out design problems. This is an exercise in critically reflecting on other designs and identifying common design problems.
 
-About 3 days after the milestone 3a deadline, we will assign you 2 or 3 milestone 3a design documents (not code). In addition to  solutions from other students, we might provide you with designs from the course staff that have known problems. You will submit your reviews of these solutions according to a provided rubric. We will share your reviews with the author of those solutions for milestone 3c.
+About 3 days after the milestone 3a deadline, we will assign you 2 or 3 design documents (not code) from milestone 3a. In addition to  solutions from other students, we might provide you with designs from the course staff that have known problems. You will submit your reviews of these solutions according to a provided rubric on Canvas. Your reviews will be visible to author of those solutions. Reviews are anonymous (reviewers will not know the authors of the solutions and authors will not know the identity of the reviewers).
 
 We will evaluate whether your reviews correctly point out design problems that exist or incorrectly point out problems where code is well designed.
 
@@ -102,9 +82,9 @@ We will evaluate whether your reviews correctly point out design problems that e
 
 ## Milestone 3c: Revised Design and Implementation
 
-Based on our milestone 3a feedback and peer feedback received after milestone 3b, you now have the opportunity to redesign your solution. We encourage you to rethink your design based on the feedback and refactor it or start from scratch. If your solution for milestone 3a received full credit and you received no useful feedback from milestone 3b, you do not need to perform any changes.
+Based on our milestone 3a feedback and peer feedback received after milestone 3b, you now have the opportunity to redesign your solution. We encourage you to rethink your design based on the feedback and refactor it or start from scratch. If your solution for milestone 3a received full credit and you received no useful feedback from milestone 3b, you do not need to perform any changes and can submit the same commit URL.
 
-You may use other design you saw in milestone 3b as inspiration to improve your own design, but you are fully responsible yourself for the correctness the designs you submit.
+You may use other design ideas you saw in milestone 3b as inspiration to improve your own design, but you are fully responsible yourself for the correctness the designs you submit.
 
 Briefly describe changes between your milestone 3a and 3c solution (if any) in `/changes.pdf` or `/changes.md`.
 
@@ -116,9 +96,15 @@ We will assess milestone 3c with the same rubric as milestone 3a. We are looking
 
 ## Submitting your work
 
-For milestone 3a and 3c, as in previous homework assignments, push your solution to your Santorini repository on GitHub and submit a link to the final commit to Canvas. A link will look like `https://github.com/CMU-17-214/<reponame>/commit/<commitid>`.
+For milestone 3a, submit your work in two locations: (1) Submit a link to your final commit to Canvas. All design documents should be located in the root directory of your repository.  (2) Upload all 6 design documents in a single zip file (not including any code or other files) to Canvas for peer review.
 
-All design documents should be located in the root directory of your repository. 
+For milestone 3b, you will perform code review directly on Canvas.
+
+For milestone 3c, you will again submit a link to your final commit to Canvas. All design documents should be located in the root directory of your repository. 
+
+As usual, the link must have the format `https://github.com/CMU-17-214/<reponame>/commit/<commitid>`.
+
+
 
 ## Evaluation
 
@@ -128,20 +114,29 @@ Milestone 3b is worth 30 points. The milestone 3c is worth 200 points. Milestone
 
 We expect to grade the homework with the following rubric:
 
-**Design artifacts (30pt, milestone 3a/c):**
+**Domain analysis (30pt, milestone 3a/c):**
 
-* [ ] 10: The domain model in file <code>domain-model.pdf</code> describes the vocabulary of the problem, uses suitable notation, and is at the right level of abstraction
+* [ ] 10: The domain model in file <code>domain-model.pdf</code> describes the vocabulary of the problem with reasonable completeness, uses suitable notation (right UML boxes, named associations with cardinalities, association vs field, reasonable naming), and is at the right level of abstraction
 * [ ] 10: The system sequence diagram in file <code>system-sequence-diagram.pdf</code> is reasonably complete, uses suitable notation, and is at the right level of abstraction.
-* [ ] 10: The behavior contract in file <code>contract.pdf</code> or <code>contract.md</code> is reasonably complete regarding pre- and post-conditions.
+* [ ] 10: The behavior contract in file <code>contract.pdf</code> or <code>contract.md</code> is reasonably complete regarding pre- and post-conditions and at the right level of abstraction.
 
-**Design Quality and Justification (75 pt, milestone 3a/c):**
+**Object-oriented design and hustification (75 pt, milestone 3a/c):**
 
-* [ ]  30: The design across all models makes reasonable decisions about responsibility assignment. The use or lack of design patterns is appropriate. In particular, we will look for: Where is state stored (players, current player, worker locations, towers, winner)? Who checks whether a move/build is valid? Who performs state updates for move/build? Who checks whether the game is over and who the winner is? Is cohesion reasonable, avoiding classes/objects with too many/few responsibilities? Is unnecessary coupling avoided? Is unnecessary complexity avoided?
-* [ ] 15: The answers in file `justification.pdf` or `justification.md ` all use suitable terminology,  demonstrate an engagement with design principles and tradeoffs, and discuss design alternatives in a meaningful way. 
-* [ ] 5: The locations storing different states are clearly stated (players, current player, worker locations, towers, winner) and justified in the text and associated in-line diagram/models.  
-* [ ] 10: The answers to question 2 includes a (partial) object model to illustrate state in the game.  The diagram is reasonably complete within the scope of the question, uses suitable notation for that type of diagram, and is at the right level of abstraction. The diagram is consistent with other diagrams and descriptions submitted with the homework.
-* [ ] 5: The classes and the process that check whether a build is valid are clearly stated in and justified in the text and associated in-line diagrams/models. 
-* [ ] 10: The answers to question 3 includes a (partial) interaction model to illustrate how the game checks validity of a build and how it performs a build.  The diagram is reasonably complete within the scope of the question, uses suitable notation for that type of diagram, and is at the right level of abstraction. The diagram is consistent with other diagrams and descriptions submitted with the homework.
+* [ ] 15: The object model in file `object-model.pdf` is reasonably complete, uses suitable notation (right UML boxes, named associations with cardinalities, association vs field, reasonable naming), and is at the right level of abstraction. 
+* [ ] 10: The interaction diagram in `build-justification.pdf` is reasonably complete, uses suitable notation, is at the right level of abstraction, and is consistent with the object model (called methods exist in target class, caller has access to target objects).
+* [ ] 20: Responsibility assignment for state is clearly explained, appropriate and well justified  in `state-justification.pdf` 
+  * [ ] It is clear from the description where players, current player, worker locations, towers, and the winner are stored. 
+  * [ ] The description matches the object model.  
+  * [ ] The responsibility assignment for each piece of state is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
+  * [ ] The justification demonstrate an engagement with design principles and tradeoffs, and discuss design alternatives in a meaningful way. 
+
+* [ ] 20: Responsibility assignment for checking and performing a build actions is clearly explained, appropriate, and well justified in `build-justification.pdf`
+  * [ ] It is clear from the description what checks are performed to determine whether a build action is valid and how the state of the game is updated when the action is performed.
+  * [ ] The description matches the interaction diagram.
+  * [ ] The responsibility assignment for each method involved in checking and performing builds is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
+  * [ ] The justification demonstrate an engagement with design principles and tradeoffs, and discuss design alternatives in a meaningful way. 
+
+* [ ] 10: Responsibility assignment for checking and performing a move action is appropriate (as recognizable from the object model and implementation; no description or justification requirement).
 
 **Implementation and testing (95pt, milestone 3a/c):**
 
@@ -157,9 +152,9 @@ We expect to grade the homework with the following rubric:
 
 **Peer review (30pt, milestone 3b):**
 
-* [ ] 10: Reviews are provided for all solutions, following the provided rubric. The reviews are constructive.
-* [ ] 10: The reviews identify real design problems 
-* [ ] 10: The reviews do not point out good design decisions as problems
+* [ ] 10: Reviews are provided for all solutions, following the provided rubric. 
+* [ ] 10: The reviews identify real design problems, if any.
+* [ ] 10: The reviews do not point out good design decisions as problems, if any.
 
 
 
@@ -187,9 +182,9 @@ To maximize clarity, we recommend that you draw UML diagrams with software tools
 
 
 
-## Appendix 3: Setting up your Java Project
+## Appendix 3: Setting up your project
 
-You can generate the default setup for a Maven project from the command line with `mvn archetype:generate` and use `maven-archetype-quickstart` as the template. This will set up an initial `pom.xml` file and some example directories.
+For Java, you can generate the default setup for a Maven project from the command line with `mvn archetype:generate` and use `maven-archetype-quickstart` as the template. This will set up an initial `pom.xml` file and some example directories.
 
 We recommend to set up the Checkstyle plugin. You can look at the `pom.xml` file from homework 1 for how to do this (`maven-checkstyle-plugin`) and can also copy the checkstyle configuration in `checkstyle.xml`.
 
@@ -198,3 +193,5 @@ We recommend to set up a `.gitignore` file to avoid committing generated files. 
 We require you to set up GitHub actions to compile and test the project. You can adapt the setup from homework 1 in `.github/workflows`.
 
 Further reading: [Maven - How to create a Java project](https://mkyong.com/maven/how-to-create-a-java-project-with-maven/), [Maven Archetype Plugin – archetype:generate](https://maven.apache.org/archetype/maven-archetype-plugin/generate-mojo.html), [Maven – Introduction to the POM](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html), [Maven – Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html), [ignoring files in Git](https://www.atlassian.com/git/tutorials/saving-changes/gitignore), [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
+
+If you are using TypeScript, we recommend to use the configuration from homework 1 as a starting point.
