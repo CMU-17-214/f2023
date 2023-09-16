@@ -120,27 +120,27 @@ We expect to grade the homework with the following rubric:
 * [ ] 10: The system sequence diagram in file <code>system-sequence-diagram.pdf</code> is reasonably complete, uses suitable notation, and is at the right level of abstraction.
 * [ ] 10: The behavior contract in file <code>contract.pdf</code> or <code>contract.md</code> is reasonably complete regarding pre- and post-conditions and at the right level of abstraction.
 
-**Object-oriented design and hustification (75 pt, milestone 3a/c):**
+**Object-oriented design and justification (75 pt, milestone 3a/c):**
 
 * [ ] 15: The object model in file `object-model.pdf` is reasonably complete, uses suitable notation (right UML boxes, named associations with cardinalities, association vs field, reasonable naming), and is at the right level of abstraction. 
 * [ ] 10: The interaction diagram in `build-justification.pdf` is reasonably complete, uses suitable notation, is at the right level of abstraction, and is consistent with the object model (called methods exist in target class, caller has access to target objects).
-* [ ] 20: Responsibility assignment for state is clearly explained, appropriate and well justified  in `state-justification.pdf` 
+* [ ] 20: Responsibility assignment for the state is clearly explained, appropriate and well justified  in `state-justification.pdf` 
   * [ ] It is clear from the description where players, current player, worker locations, towers, and the winner are stored. 
   * [ ] The description matches the object model.  
   * [ ] The responsibility assignment for each piece of state is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
-  * [ ] The justification demonstrate an engagement with design principles and tradeoffs, and discuss design alternatives in a meaningful way. 
+  * [ ] The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
 
-* [ ] 20: Responsibility assignment for checking and performing a build actions is clearly explained, appropriate, and well justified in `build-justification.pdf`
+* [ ] 20: Responsibility assignment for checking and performing build actions is clearly explained, appropriate, and well justified in `build-justification.pdf`
   * [ ] It is clear from the description what checks are performed to determine whether a build action is valid and how the state of the game is updated when the action is performed.
   * [ ] The description matches the interaction diagram.
   * [ ] The responsibility assignment for each method involved in checking and performing builds is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
-  * [ ] The justification demonstrate an engagement with design principles and tradeoffs, and discuss design alternatives in a meaningful way. 
+  * [ ] The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
 
 * [ ] 10: Responsibility assignment for checking and performing a move action is appropriate (as recognizable from the object model and implementation; no description or justification requirement).
 
 **Implementation and testing (95pt, milestone 3a/c):**
 
-* [ ] 35: All core functionality of the game is implemented and follows all rules as specified. Specifically we will look for: initializing the game, rejecting invalid moves and builds, updating state after moving and building, and determining the winner and ending the game.
+* [ ] 35: All core functionality of the game is implemented and follows all rules as specified. Specifically, we will look for: initializing the game, rejecting invalid moves and builds, updating state after moving and building, and determining the winner and ending the game.
 * [ ] 20: The implementation aligns with models. We will look for: same names, state and methods in the same classes/objects, associations cardinalities reflect implementation, and interactions possible as shown in diagrams.
 * [ ] 10: The public methods of the code are well documented.
 * [ ] 10: The implementation is well tested, using both unit tests and integration tests. The key functions like validating a move, a build, and tests of sequences of game play are tested at a reasonable level. The tests follow good practices (e.g. redundancy, independence, readability. NOT including the completeness of test suites).
