@@ -125,29 +125,29 @@ We expect to grade the homework with the following rubric:
 4. [ ] 15: The object model in file `object-model.pdf` is reasonably complete, uses suitable notation (right UML boxes, named associations with cardinalities, association vs field, reasonable naming), and is at the right level of abstraction. 
 5. [ ] 10: The interaction diagram in `build-justification.pdf` is reasonably complete, uses suitable notation, is at the right level of abstraction, and is consistent with the object model (called methods exist in target class, caller has access to target objects).
 6. [ ] (20 total): Responsibility assignment for the state is clearly explained, appropriate and well justified  in `state-justification.pdf` 
-   - a. [ ] 5: It is clear from the description where players, current player, worker locations, towers, and the winner are stored. 
-   - b. [ ] 5: The description matches the object model.  
-   - c. [ ] 5: The responsibility assignment for each piece of state is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
-   - d. [ ] 5: The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
+   - a. 5: It is clear from the description where players, current player, worker locations, towers, and the winner are stored. 
+   - b. 5: The description matches the object model.  
+   - c. 5: The responsibility assignment for each piece of state is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
+   - d. 5: The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
 
 7. [ ] (20 total): Responsibility assignment for checking and performing build actions is clearly explained, appropriate, and well justified in `build-justification.pdf`
-   - a. [ ] 5: It is clear from the description what checks are performed to determine whether a build action is valid and how the state of the game is updated when the action is performed.
-   - b. [ ] 5: The description matches the interaction diagram.
-   - c. [ ] 5: The responsibility assignment for each method involved in checking and performing builds is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
-   - d. [ ] 5: The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
+   - a. 5: It is clear from the description what checks are performed to determine whether a build action is valid and how the state of the game is updated when the action is performed.
+   - b. 5: The description matches the interaction diagram.
+   - c. 5: The responsibility assignment for each method involved in checking and performing builds is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
+   - d. 5: The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
 
 8. [ ] 10: Responsibility assignment for checking and performing a move action is appropriate (as recognizable from the object model and implementation; no description or justification requirement).
 
 **Implementation and testing (95 points, milestone 3a/c):**
 
 9. [ ] (35 total): All core functionality of the game is implemented and follows all rules as specified. Specifically we check that your code does the following:
-   - a. [ ] 5: Initializes the game
-   - b. [ ] 5: Rejects invalid moves
-   - c. [ ] 5: Rejects invalid builds
-   - d. [ ] 5: Updates the state after moving
-   - e. [ ] 5: Updates the state after building
-   - f. [ ] 5: Determines the winner
-   - g. [ ] 5: Ends the game
+   - a. 5: Initializes the game
+   - b. 5: Rejects invalid moves
+   - c. 5: Rejects invalid builds
+   - d. 5: Updates the state after moving
+   - e. 5: Updates the state after building
+   - f. 5: Determines the winner
+   - g. 5: Ends the game
 10. [ ] 20: The implementation aligns with models. We will look for: same names, state and methods in the same classes/objects, associations' cardinalities reflect implementation, and interactions possible as shown in diagrams.
 11. [ ] 10: The public methods of the code are well documented.
 12. [ ] 10: The implementation is well tested, using both unit tests and integration tests. The key functions like validating a move, a build, and tests of sequences of game play are tested at a reasonable level. The tests follow good practices (e.g. redundancy, independence, readability. NOT including the completeness of test suites).
