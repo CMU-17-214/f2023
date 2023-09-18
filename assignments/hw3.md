@@ -108,11 +108,23 @@ As usual, the link must have the format `https://github.com/CMU-17-214/<reponame
 
 ## Evaluation
 
-Milestones 3a and 3c use the same 200 point rubric, however only milestone 3c's grade will count for the final grade of this assignment. Milestone 3b is worth 30 points.
+The assignment is worth 230 points total, divided as follows:
+
+* 30 points for submitting reasonably complete designs and implementation at Milestone 3a
+* 160 points for the correctness/quality of the designs and implementation, assessed in both Milestone 3a and Milestone 3c. We will only count the Milestone 3c grade.
+* 30 points for peer review in Milestone 3b.
+
+
 
 *If the submitted link does not have the right format, we will not be able to grade your solution and will assign 0 points.*
 
-We expect to grade the homework with the following rubric:
+Specifically, we expect to grade the homework with the following rubric:
+
+**Milestone 3a submission**
+
+1. [ ] 10: The GitHub submission includes a reasonably complete version of all design documents that demonstrate a good-faith attempt at modeling the problem (`domain-model.pdf`,  <code>system-sequence-diagram.pdf</code> , <code>contract.pdf</code> , `object-model.pdf` , `build-justification.pdf`, and `state-justification.pdf`)
+2. [ ] 10: The design documents are submitted in a zip file to Canvas without obvious identifying information (no name or andrewid in any of the documents)
+3. [ ] 10: The GitHub submission includes reasonably complete code and tests that demonstrate a good-faith attempt at implementing the game.
 
 **Domain analysis (30 points, milestone 3a/c):**
 
