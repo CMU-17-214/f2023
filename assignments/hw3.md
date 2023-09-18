@@ -96,7 +96,7 @@ We will assess milestone 3c with the same rubric as milestone 3a. We are looking
 
 ## Submitting your work
 
-For milestone 3a, submit your work in two locations: (1) Submit a link to your final commit to Canvas. All design documents should be located in the root directory of your repository.  (2) Upload all 6 design documents in a single zip file (not including any code or other files) to Canvas for peer review.
+For milestone 3a, submit your work in two locations: (1) Submit a link to your final commit to Canvas. All design documents should be located in the root directory of your repository.  (2) Upload all 6 design documents in a single zip file (not including any code or other files) to Canvas for peer review. **Make sure your submissions for 3a do not include your AndrewID or your name. These submissions will be assigned to your classmates for peer review.**
 
 For milestone 3b, you will perform code review directly on Canvas.
 
@@ -108,53 +108,60 @@ As usual, the link must have the format `https://github.com/CMU-17-214/<reponame
 
 ## Evaluation
 
-Milestone 3b is worth 30 points. The milestone 3c is worth 200 points. Milestone 3a is graded on the same 200 point rubric as milestone 3c but not counted toward the final grade.
+Milestones 3a and 3c use the same 200 point rubric, however only milestone 3c's grade will count for the final grade of this assignment. Milestone 3b is worth 30 points.
 
 *If the submitted link does not have the right format, we will not be able to grade your solution and will assign 0 points.*
 
 We expect to grade the homework with the following rubric:
 
-**Domain analysis (30pt, milestone 3a/c):**
+**Domain analysis (30 points, milestone 3a/c):**
 
-* [ ] 10: The domain model in file <code>domain-model.pdf</code> describes the vocabulary of the problem with reasonable completeness, uses suitable notation (right UML boxes, named associations with cardinalities, association vs field, reasonable naming), and is at the right level of abstraction
-* [ ] 10: The system sequence diagram in file <code>system-sequence-diagram.pdf</code> is reasonably complete, uses suitable notation, and is at the right level of abstraction.
-* [ ] 10: The behavior contract in file <code>contract.pdf</code> or <code>contract.md</code> is reasonably complete regarding pre- and post-conditions and at the right level of abstraction.
+1. [ ] 10: The domain model in file <code>domain-model.pdf</code> describes the vocabulary of the problem with reasonable completeness, uses suitable notation (right UML boxes, named associations with cardinalities, association vs field, reasonable naming), and is at the right level of abstraction
+2. [ ] 10: The system sequence diagram in file <code>system-sequence-diagram.pdf</code> is reasonably complete, uses suitable notation, and is at the right level of abstraction.
+3. [ ] 10: The behavior contract in file <code>contract.pdf</code> is reasonably complete regarding pre- and post-conditions and at the right level of abstraction.
 
-**Object-oriented design and justification (75 pt, milestone 3a/c):**
+**Object-oriented design and justification (75 points, milestone 3a/c):**
 
-* [ ] 15: The object model in file `object-model.pdf` is reasonably complete, uses suitable notation (right UML boxes, named associations with cardinalities, association vs field, reasonable naming), and is at the right level of abstraction. 
-* [ ] 10: The interaction diagram in `build-justification.pdf` is reasonably complete, uses suitable notation, is at the right level of abstraction, and is consistent with the object model (called methods exist in target class, caller has access to target objects).
-* [ ] 20: Responsibility assignment for the state is clearly explained, appropriate and well justified  in `state-justification.pdf` 
-  * [ ] It is clear from the description where players, current player, worker locations, towers, and the winner are stored. 
-  * [ ] The description matches the object model.  
-  * [ ] The responsibility assignment for each piece of state is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
-  * [ ] The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
+4. [ ] 15: The object model in file `object-model.pdf` is reasonably complete, uses suitable notation (right UML boxes, named associations with cardinalities, association vs field, reasonable naming), and is at the right level of abstraction. 
+5. [ ] 10: The interaction diagram in `build-justification.pdf` is reasonably complete, uses suitable notation, is at the right level of abstraction, and is consistent with the object model (called methods exist in target class, caller has access to target objects).
+6. [ ] (20 total): Responsibility assignment for the state is clearly explained, appropriate and well justified  in `state-justification.pdf` 
+   - a. [ ] 5: It is clear from the description where players, current player, worker locations, towers, and the winner are stored. 
+   - b. [ ] 5: The description matches the object model.  
+   - c. [ ] 5: The responsibility assignment for each piece of state is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
+   - d. [ ] 5: The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
 
-* [ ] 20: Responsibility assignment for checking and performing build actions is clearly explained, appropriate, and well justified in `build-justification.pdf`
-  * [ ] It is clear from the description what checks are performed to determine whether a build action is valid and how the state of the game is updated when the action is performed.
-  * [ ] The description matches the interaction diagram.
-  * [ ] The responsibility assignment for each method involved in checking and performing builds is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
-  * [ ] The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
+7. [ ] (20 total): Responsibility assignment for checking and performing build actions is clearly explained, appropriate, and well justified in `build-justification.pdf`
+   - a. [ ] 5: It is clear from the description what checks are performed to determine whether a build action is valid and how the state of the game is updated when the action is performed.
+   - b. [ ] 5: The description matches the interaction diagram.
+   - c. [ ] 5: The responsibility assignment for each method involved in checking and performing builds is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
+   - d. [ ] 5: The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
 
-* [ ] 10: Responsibility assignment for checking and performing a move action is appropriate (as recognizable from the object model and implementation; no description or justification requirement).
+8. [ ] 10: Responsibility assignment for checking and performing a move action is appropriate (as recognizable from the object model and implementation; no description or justification requirement).
 
-**Implementation and testing (95pt, milestone 3a/c):**
+**Implementation and testing (95 points, milestone 3a/c):**
 
-* [ ] 35: All core functionality of the game is implemented and follows all rules as specified. Specifically, we will look for: initializing the game, rejecting invalid moves and builds, updating state after moving and building, and determining the winner and ending the game.
-* [ ] 20: The implementation aligns with models. We will look for: same names, state and methods in the same classes/objects, associations cardinalities reflect implementation, and interactions possible as shown in diagrams.
-* [ ] 10: The public methods of the code are well documented.
-* [ ] 10: The implementation is well tested, using both unit tests and integration tests. The key functions like validating a move, a build, and tests of sequences of game play are tested at a reasonable level. The tests follow good practices (e.g. redundancy, independence, readability. NOT including the completeness of test suites).
-* [ ] 5: The build and tests are automated on Github Actions and succeed.
-* [ ] 5: Commits are reasonably cohesive; commit messages are reasonable.
-* [ ] 10: The implementation practices reasonable style, and the codes can pass a reasonable linter check (e.g. checkstyle.xml from previous homework).
+9. [ ] (35 total): All core functionality of the game is implemented and follows all rules as specified. Specifically we check that your code does the following:
+   - a. [ ] 5: Initializes the game
+   - b. [ ] 5: Rejects invalid moves
+   - c. [ ] 5: Rejects invalid builds
+   - d. [ ] 5: Updates the state after moving
+   - e. [ ] 5: Updates the state after building
+   - f. [ ] 5: Determines the winner
+   - g. [ ] 5: Ends the game
+10. [ ] 20: The implementation aligns with models. We will look for: same names, state and methods in the same classes/objects, associations' cardinalities reflect implementation, and interactions possible as shown in diagrams.
+11. [ ] 10: The public methods of the code are well documented.
+12. [ ] 10: The implementation is well tested, using both unit tests and integration tests. The key functions like validating a move, a build, and tests of sequences of game play are tested at a reasonable level. The tests follow good practices (e.g. redundancy, independence, readability. NOT including the completeness of test suites).
+13. [ ] 5: The build and tests are automated on Github Actions and succeed.
+14. [ ] 5: Commits are reasonably cohesive; commit messages are reasonable.
+15. [ ] 10: The implementation practices reasonable style, and the codes can pass a reasonable linter check (e.g. checkstyle.xml from previous homework).
 
 
 
-**Peer review (30pt, milestone 3b):**
+**Peer review (30 points, milestone 3b):**
 
-* [ ] 10: Reviews are provided for all solutions, following the provided rubric. 
-* [ ] 10: The reviews identify real design problems, if any.
-* [ ] 10: The reviews do not point out good design decisions as problems, if any.
+1. [ ] 10: Reviews are provided for all solutions, following the provided rubric. 
+2. [ ] 10: The reviews identify real design problems, if any.
+3. [ ] 10: The reviews do not point out good design decisions as problems, if any.
 
 
 
@@ -162,7 +169,7 @@ We expect to grade the homework with the following rubric:
 
 Santorini has very simple rules, but the game is very extensible. You can find the original rules [online](https://roxley.com/products/santorini). You can find a copy of the game in the common space of TCS Hall on campus. Beyond the actual board game, you can also find a mobile app that implements the game if you want to try to play it.
 
-In a nutshell, the rules are as follows: The game is played on a 5 by 5 grid, where each grid can contain towers consisting of blocks and domes. Two players have two workers each on any field of the grid. Throughout the game, the workers move around and build towers. The first worker to make it on top of a level-3 tower wins. Note that though the official rules require that if a player cannot further move any worker, they will lose, you do not need to automatically detect this winning condition in your solution. You also don’t need to handle more than two players.
+In a nutshell, the rules are as follows: The game is played on a 5 by 5 grid, where each grid can contain towers consisting of blocks and domes. Two players have two workers each on any field of the grid. Throughout the game, the workers move around and build towers. The first worker to make it on top of a level-3 tower wins. Note that though the official rules require that if a player cannot further move any worker, they will lose, **you do not need to automatically detect this winning condition in your solution**. You also don’t need to handle more than two players.
 
 As set up, both players pick starting positions for both their workers on the grid. (For simplicity, in Homework 3 and 6, *you can assume a player A always starts*). Players take turns. In each turn, they select one of their workers, move this worker to an adjacent unoccupied field, and afterward add a block or dome to an unoccupied adjacent field of their new position. Locations with a worker or a dome are considered occupied. Workers can only climb a maximum of one level when moving. Domes can only be built on level-3 towers. You can assume there are infinite tower/dome pieces to play.
 
