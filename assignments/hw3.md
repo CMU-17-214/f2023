@@ -111,7 +111,7 @@ As usual, the link must have the format `https://github.com/CMU-17-214/<reponame
 The assignment is worth 230 points total, divided as follows:
 
 * 30 points for submitting reasonably complete designs and implementation at Milestone 3a
-* 160 points for the correctness/quality of the designs and implementation, assessed in both Milestone 3a and Milestone 3c. We will only count the Milestone 3c grade.
+* 170 points for the correctness/quality of the designs and implementation, assessed in both Milestone 3a and Milestone 3c. We will only count the Milestone 3c grade.
 * 30 points for peer review in Milestone 3b.
 
 
@@ -122,8 +122,8 @@ Specifically, we expect to grade the homework with the following rubric:
 
 **Initial submission (30 points, milestone 3a)**
 
-1. [ ] 10: The GitHub submission includes a reasonably complete version of all design documents that demonstrate a good-faith attempt at modeling the problem (`domain-model.pdf`,  <code>system-sequence-diagram.pdf</code> , <code>contract.pdf</code> , `object-model.pdf` , `build-justification.pdf`, and `state-justification.pdf`)
-2. [ ] 10: The design documents are submitted in a zip file to Canvas without obvious identifying information (no name or andrewid in any of the documents)
+1. [ ] 10: The GitHub submission includes a reasonably complete version of all design documents that demonstrate a good-faith attempt at modeling the problem (`domain-model.pdf`,  <code>system-sequence-diagram.pdf</code>, <code>contract.pdf</code>, `object-model.pdf`, `build-justification.pdf`, and `state-justification.pdf`)
+2. [ ] 10: The design documents are submitted in a zip file to Canvas without obvious identifying information (no name or AndrewID in any of the documents)
 3. [ ] 10: The GitHub submission includes reasonably complete code and tests that demonstrate a good-faith attempt at implementing the game.
 
 **Domain analysis (25 points, milestone 3a/c):**
@@ -148,7 +148,7 @@ Specifically, we expect to grade the homework with the following rubric:
    - c. The responsibility assignment for each method involved in checking and performing builds is justified with suitable design vocabulary (design goals/principles/heuristics/patterns). The assigned responsibilities and justifications are plausible.
    - d. The justification demonstrates an engagement with design principles and tradeoffs, and discusses design alternatives in a meaningful way. 
 
-10. [ ] 10: Responsibility assignment for checking and performing a move action is appropriate (as recognizable from the object model and implementation; no description or justification requirement).
+10. [ ] 5: Responsibility assignment for checking and performing a move action is appropriate (as recognizable from the object model and implementation; no description or justification requirement).
 
 **Implementation and testing (75 points, milestone 3a/c):**
 
