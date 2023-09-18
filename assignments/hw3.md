@@ -50,7 +50,7 @@ We strongly recommend to not auto-generated models from code with tools, as thos
 
 
 
-In summary, we expect 6 files for the design part of this assignment: `/domain-model.pdf`, `/system-sequence-diagram.pdf`, `/contract.pdf` (for moving a worker), `/object-model.pdf`, ``/state-justification.pdf` (for responsibility assignment regarding state), and `build-justification.pdf` (for responsibility assignment regarding the build action). 
+In summary, we expect 6 files for the design part of this assignment: `/domain-model.pdf`, `/system-sequence-diagram.pdf`, `/contract.pdf` (for moving a worker), `/object-model.pdf`, `/state-justification.pdf` (for responsibility assignment regarding state), and `build-justification.pdf` (for responsibility assignment regarding the build action). 
 
 To submit these documents, (a) push them to the root directory of your Santorini repository on Github and (b) submit them as a zip file for peer review to Canvas. Do not include your andrewId or name in any of the documents so that peer review can be performed anonymously.
 
