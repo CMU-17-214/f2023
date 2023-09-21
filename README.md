@@ -121,7 +121,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Thu, Sep 21</td>
-      <td>Inheritance & Delegation</td>
+      <td><a href="https://docs.google.com/presentation/d/1668iEEBFYLL6cOzg9BilP0_k_8QHZY4zTpRJ4OhzmCE/edit?usp=sharing">Inheritance & Delegation</a></td>
       <td></td>
     </tr>
   </tbody>
