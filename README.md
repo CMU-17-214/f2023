@@ -112,7 +112,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     <tr class="">
       <td>Tue, Sep 19</td>
       <td><a href="https://docs.google.com/presentation/d/1iLHBEwPprITyfepdJa6MxGOpAMhLcNkSd02-wm6jgaQ/edit?usp=sharing">Responsibility assignment</a></td>
-      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9-11, 15-17</td>
+      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9-11, 15-16</td>
     </tr>
     <tr>
       <td>Wed, Sep 20</td>
@@ -129,7 +129,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     <tr>
       <td>Tue, Sep 26</td>
       <td>Design Patterns</td>
-      <td></td>
+      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 17-18</td></td>
     </tr>
     <tr class="">
       <td>Wed, Sep 27</td>
