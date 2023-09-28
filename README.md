@@ -138,8 +138,8 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Sep 28</td>
-      <td>Refactoring and Anti-patterns</td>
-      <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> on Observer and Decorator</td>
+      <td><a href="https://docs.google.com/presentation/d/1kOIg7km28x59asMUkkMh-MSnbxrQq4kcfITD_2i-9Nw/edit?usp=sharing">Refactoring and Anti-patterns</a></td>
+      <td></td>
     </tr>
   </tbody>
   <tbody>
@@ -151,7 +151,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     <tr class="">
       <td>Tue, Oct 3</td>
       <td>Introduction to GUIs and Concurrency</td>
-      <td></td>
+      <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> or <a href="https://refactoring.guru/design-patterns/catalog">Refactoring Guru</a> on Observer and Decorator</td>
     </tr>
     <tr>
       <td>Wed, Oct 4</td>
