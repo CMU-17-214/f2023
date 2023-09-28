@@ -1,24 +1,26 @@
 # Lab 6: Refactoring and Anti-Patterns
 
 ## Introduction 
-A lot of the design principles and heuristics we have been encouraging in this class are there to encourage good design *up-front*. But you do not always have control over how a system you are using gets created. 
+A lot of the design principles and heuristics we have discussed in this class are there to encourage good design *up-front*. But you do not always have control over how a system you are using gets created. 
 
 
 **Anti-patterns** are common examples of bad design. They tend to come about due to a program’s natural evolution, coupled with poor choices early on, which leads to code that is increasingly *tangled*, badly coupled, low on cohesion, etc. These are often signaled by **code smells** -- heuristic, but not guaranteed indicators of anti-patterns, like overly long methods, or a class that calls a lot of another class’ code (feature envy, signals high coupling).
 
-In this lab, you will become a code-smelling agent who detects  and attempt at refactoring them. 
+In this lab, you will become a refactoring agent who detect anti-patterns and poor design decisions within the code, and attempt to fix them.
 ## Deliverables
 
-- [ ] Identify the anti-pattern associated with Frogger crossing the road and fix it. Use the Appendix for anti-pattern vocabulary!
-- [ ] Identify the anti-pattern associated with Frogger records and fix it.
-- [ ] Identify at least two issues (no need to name the anti-pattern) associated with the Drawing System, and explain how you would refactor it. No coding required.
+- [ ] Identify one design problem with Frogger crossing the road (in Frogger.java and Road.java). Explain the design problem to the TA and show an improved implementation that fixes the design problem.
+- [ ] Identify one design problem with Frogger recording themselves (in Frogger.java and Records.java). Explain the design problem to the TA and show an improved implementation that fixes the design problem.
+- [ ] Identify at least two issues (no need to name the anti-pattern) associated with the Drawing System, and explain how you would refactor it to the TA. No coding required.
 
 ## Instructions
 
 ### Setup
 <u>Fork</u> and clone the repo from [https://github.com/CMU-17-214/f23-lab06](https://github.com/CMU-17-214/f23-lab06.git).
 
-The first two tasks are explicitly referring to Java code (the typescript codebase is also provided, but as longer legacy version from previous semesters). The last task is provided both in Java and Typescript, so feel free to explore the one you are most comfortable with. If you would like additional exercise, feel free to look into the "accounts" folder.
+Each task is provided in Java and Typescript, so feel free to explore the one you are most comfortable with. If you would like additional exercise, feel free to look into the "accounts" folder and identify the anti-pattern associated with it.
+
+In the appendix, we have provided a non-comprehensive list of anti-patterns you might want to read and refer to when doing the tasks. 
 
 ### Task 1
 Frogger is trying to cross the road, which she holds as a "Road" object in her fields. The latter holds a boolean array indicating which steps are “occupied”; Frogger is on a specific square (“position”) and provides a move method (either forward or backward).
@@ -37,15 +39,12 @@ Take a look at Records.java and then Frogger.java (again). What anti-pattern is 
 
 ### Task 3
 
-Next, let's study the “drawing” system. Open the drawing folder. The system has multiple substantial flaws, some in the same components. Rather than working top-down, trying to retrieve violations of design principles in the code, let’s work bottom up, identifying code smells and anti-patterns, and then strategizing about how to remedy those.
+Next, let's study the “drawing” system. Open the drawing folder--you may want to start by reading Drawing.java. There seems to be several design problems involved, and let's think through them. For the questions below, think about them and be prepared to answer them to your TA.
 
-1) Read through every file, making note of anything that stands out. This can be more specific than code smells; think: duplicated code, problematic ‘instanceof’ checking, poor extensibility. While you are reading, try to identify the “control-flow” of this code; who calls whom (e.g.: Shape calls Line), and where would the first user-based call come from? What does the system do?
+1. The "draw" function seems to duplicate itself. How would you refactor it so that we don't need to rewrite the functionality everytime we introduce a new file type?
+2. To aid your solution to Answer 1, we have provided a Formatter interface that makes it easier to define new file types. Based on what we are doing now (hint: look at Shape.java), how could you use them in your new solution?
+3. There is one additional problem: what are we explicitely doing before we call shape.draw everytime? How can we refactor it?
 
-2) Try to map your concerns to anti-patterns. Is everything that stood out really problematic? Is it all urgently in need of a solution? If not, what would you tackle first? Reason through the design implications of each change. Some will be very minor, some major.
-
-Prepare at least two refactorings.
-Is it as seamless as you thought it would be?
-Do you prefer the code afterwards?
 
 ## Appendix
 
@@ -53,14 +52,14 @@ Below are a few of the many anti-patterns/code smells that people have identifie
 
 1. **Feature envy**: when one class uses a lot of another’s functionality. This strongly indicates that some of the work being done in the former belongs in the latter (information expert).
   - Refactoring: move methods/fields, possibly part or some of them, to the information expert. This might work for inappropriate intimacy (below), but if both classes really need the same fields, create a delegate, used by both instead.
-  - Related: **inappropriate intimacy**, where one class relies too much on the implementation details (fields, protected methods) of another
+  - Related: **inappropriate intimacy**, where one class relies too much on the implementation details (fields, protected methods) of another.
 
 2. **Large (“god”) class**: one class that has many responsibilities (poor cohesion).
   - Refactoring: extract classes to delegate too, sub-class if you need inheritance. Also helps to extract an interface, to identify the important components.
   - Related: **middle man**, where one class only exists to delegate work elsewhere. But note that this smell applies to classes that don’t do any actual work, and can also show up in small classes.
 
 3. **Message chains**: one method makes a series of calls on the return values of another. Think of the CardDeck → FlashCard.getStatus() → CardStatus.getSuccesses example from the midterm.
-  - Refactoring: create a delegate method in the intermediate class (e.g. ‘getSuccesses’ on ‘FlashCard’.
+  - Refactoring: create a delegate method in the intermediate class (e.g. ‘getSuccesses’ on ‘FlashCard’).
 
 4. **Shotgun Surgery**: making any change requires changing a lot of code (bad responsibility assignment).
 
@@ -71,5 +70,5 @@ Below are a few of the many anti-patterns/code smells that people have identifie
   - Refactoring: identify an object that already holds all/most of these parameters, or create a “parameter Object” if not; pass that instead. If this does not apply, identify if any parameters require a method call to compute on the caller’s side; move that method call into the method.
 
 7. **Refused bequest**: two classes are connected through inheritance despite rather limited similarities (excessive coupling).
-  - Refactoring: either restructure the hierarchy to a much simpler superclass object (if inheritance is really appropriate to the remainder), or (more commonly) extract a delegate for the shared functionality
+  - Refactoring: either restructure the hierarchy to a much simpler superclass object (if inheritance is really appropriate to the remainder), or (more commonly) extract a delegate for the shared functionality.
 
