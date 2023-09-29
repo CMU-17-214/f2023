@@ -155,7 +155,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Oct 4</td>
-      <td><span class="rec">Lab 6</span> Anti-patterns and Refactoring</td>
+      <td><span class="rec">Lab 6</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab06.md">Anti-patterns and Refactoring</a></td>
       <td></td>
     </tr>
     <tr class="midterm">
