@@ -39,11 +39,10 @@ Take a look at Records.java and then Frogger.java (again). What anti-pattern is 
 
 ### Task 3
 
-Next, let's study the “drawing” system. Open the drawing folder--you may want to start by reading Drawing.java. There seems to be several design problems involved, and let's think through them. For the questions below, think about them and be prepared to answer them to your TA.
+Next, let's study the “drawing” system. Open the drawing folder--you may want to start by reading Drawing.java. There seems to be several design problems involved, and let's think through them. For each of the poor design decisions below, think about how you would refactor them (no need to write actual code), and explain 2 of these refactorings to your TA. (The entire folder contains more design problems than the ones we've described below. If you would like additional exercise, feel free to explore!)
 
 1. The "draw" function seems to duplicate itself. How would you refactor it so that we don't need to rewrite the functionality everytime we introduce a new file type?
-2. To aid your solution to Answer 1, we have provided a Formatter interface that makes it easier to define new file types. Based on what we are doing now (hint: look at Shape.java), how could you use them in your new solution?
-3. There is one additional problem: what are we explicitely doing before we call shape.draw everytime? How can we refactor it?
+2. Somewhere inside the "draw function", the code seems to be explicitly creating an array of Lines and feeding it to the shape. How would you refactor it so that we don't need to expose and rely on such information inside our Drawing class?
 
 
 ## Appendix
@@ -72,3 +71,5 @@ Below are a few of the many anti-patterns/code smells that people have identifie
 7. **Refused bequest**: two classes are connected through inheritance despite rather limited similarities (excessive coupling).
   - Refactoring: either restructure the hierarchy to a much simpler superclass object (if inheritance is really appropriate to the remainder), or (more commonly) extract a delegate for the shared functionality.
 
+8. **Excessive Instance of**: a function uses multiple "instanceOf" calls to determine the type of the object it is interacting with. This is bad encapsulation and hard to extend.
+  - Refactoring: restructure the code by invoking a more general class or interface that the subclasses may program against.
