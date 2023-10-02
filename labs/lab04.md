@@ -11,7 +11,7 @@ During lecture, we discussed how we analyze problems, design solutions, and comm
 ## Instructions
 
 ### Background
-Suppose you are designing and implementing a simplified version of one of your favorite games, Blackjack, where a single player plays against an automated dealer. 
+Suppose you are designing and implementing a simplified version of one of your favorite games, Blackjack, where up to 9 players plays against an automated dealer. 
 Here is a short description of the game: 
 
    The objective of Blackjack is to obtain a score higher than the dealer. In each round the **players** and the **dealer** are initially dealt 2 **cards**, with one of the dealer’s cards dealt face down. Each numerical card (2-9) is worth its **face value**, aces are worth either 1 or 11 (it is the player’s choice), and all face cards (ten, jack, queen, and king) are worth 10. 

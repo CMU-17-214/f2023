@@ -112,7 +112,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     <tr class="">
       <td>Tue, Sep 19</td>
       <td><a href="https://docs.google.com/presentation/d/1iLHBEwPprITyfepdJa6MxGOpAMhLcNkSd02-wm6jgaQ/edit?usp=sharing">Responsibility assignment</a></td>
-      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9-11, 15-17</td>
+      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 9-11, 15-16</td>
     </tr>
     <tr>
       <td>Wed, Sep 20</td>
@@ -121,25 +121,25 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Thu, Sep 21</td>
-      <td>Inheritance & Delegation</td>
+      <td><a href="https://docs.google.com/presentation/d/1668iEEBFYLL6cOzg9BilP0_k_8QHZY4zTpRJ4OhzmCE/edit?usp=sharing">Inheritance & Delegation</a></td>
       <td></td>
     </tr>
   </tbody>
   <tbody>
     <tr>
       <td>Tue, Sep 26</td>
-      <td>Design Patterns</td>
-      <td></td>
+      <td><a href="https://docs.google.com/presentation/d/16tdCHJV4Ku3bB9XYQWnl9EUESMvJ7vlA-zAa-2z1ZXg/edit?usp=sharing">Design Patterns</a></td>
+      <td><a href="https://www.safaribooksonline.com/library/view/applying-uml-and/0131489062">UML and Patterns</a>, Ch. 17-18</td></td>
     </tr>
     <tr class="">
       <td>Wed, Sep 27</td>
-      <td><span class="rec">Lab 5</span> Inheritance and Delegation</td>
+      <td><span class="rec">Lab 5</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab05.md">Inheritance and Delegation</a></td>
       <td></td>
     </tr>
     <tr>
       <td>Thu, Sep 28</td>
-      <td>Refactoring and Anti-patterns</td>
-      <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> on Observer and Decorator</td>
+      <td><a href="https://docs.google.com/presentation/d/1kOIg7km28x59asMUkkMh-MSnbxrQq4kcfITD_2i-9Nw/edit?usp=sharing">Refactoring and Anti-patterns</a></td>
+      <td></td>
     </tr>
   </tbody>
   <tbody>
@@ -151,11 +151,11 @@ The schedule below reflects our current plans, but will be updated throughout th
     <tr class="">
       <td>Tue, Oct 3</td>
       <td>Introduction to GUIs and Concurrency</td>
-      <td></td>
+      <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> or <a href="https://refactoring.guru/design-patterns/catalog">Refactoring Guru</a> on Observer and Decorator</td>
     </tr>
     <tr>
       <td>Wed, Oct 4</td>
-      <td><span class="rec">Lab 6</span> Anti-patterns and Refactoring</td>
+      <td><span class="rec">Lab 6</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab06.md">Anti-patterns and Refactoring</a></td>
       <td></td>
     </tr>
     <tr class="midterm">
