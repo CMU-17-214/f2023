@@ -150,7 +150,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Tue, Oct 3</td>
-      <td>Introduction to GUIs and Concurrency</td>
+      <td><a href="https://docs.google.com/presentation/d/1UwOwQaCNsmRiubei6jqkrwX5IA_fWaHL4TYgnFXFCvE/edit?usp=sharing">Introduction to GUIs and Concurrency</a></td>
       <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> or <a href="https://refactoring.guru/design-patterns/catalog">Refactoring Guru</a> on Observer and Decorator</td>
     </tr>
     <tr>
