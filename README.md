@@ -177,7 +177,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Oct 11</td>
-      <td><span class="rec">Lab 7</span> GUI intro </br>
+      <td><span class="rec">Lab 7</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab07.md">GUI intro </a></td>
     </tr>
     <tr>
       <td>Thu, Oct 12</td>
