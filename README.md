@@ -172,7 +172,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Oct 10</td>
-      <td>(Towards) Web Apps</td>
+      <td><a href="https://docs.google.com/presentation/d/1MYznh142GLDOjTiruuP475bD-EpPpYcJbYXLWJJ7KHU/edit?usp=sharing">Asynchrony in JavaScript</a></td>
       <td></td>
     </tr>
     <tr>
