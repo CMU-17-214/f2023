@@ -181,7 +181,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Oct 12</td>
-      <td>Concurrency: Safety and Immutability</td>
+      <td><a href="https://docs.google.com/presentation/d/1fOKIktVlnDzdCzNcOj-QLD8wqodA4d_fhzhixFXPzKg/edit?usp=sharing">Concurrency and Hazards</a></td>
       <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop">Concurrency model and the event loop</a> + <a href="https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5">How JavaScript works</a></td>
     </tr>
   </tbody>
