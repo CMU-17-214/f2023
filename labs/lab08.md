@@ -3,9 +3,8 @@
 Homework 5 involves calling external APIS, specifically the [Google Cloud Vision API](https://cloud.google.com/vision?hl=en). This specific API (and many others you will encounter) requires you to set up an account. In this lab, you will set up your environment to work with the Google Cloud API. Since this lab is about environment setup, you may work through any problems you encounter with others, or seek help from the TAs during your lab session.
 
 ## Deliverables
-- [ ] Sign up for an account with the Google Cloud Vision API.
-- [ ] Redeem the Google Cloud coupon that we provide you.
-- [ ] Make a call to the Google Cloud Vision API and identify the CMU logo in the provided image.
+- [ ] Sign up for an account and successfully make a call to the Google Cloud Vision API.
+- [ ] (2 points) Reimplement the Promise code in the repository as async/await.
 
 ## Instructions
 ### Setting up a Google Cloud project.
@@ -39,6 +38,6 @@ Homework 5 involves calling external APIS, specifically the [Google Cloud Vision
 
 1. Enable the Google Cloud Vision API by following [this link](https://console.cloud.google.com/flows/enableapi?apiid=vision.googleapis.com) and following the prompts.
 
-### Run code
+### Run and modify code
 
 1. Clone the template repository <https://github.com/CMU-17-214/f2023-lab08> and follow the directions in the README.
