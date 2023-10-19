@@ -7,7 +7,8 @@ Homework 5 involves calling external APIS, specifically the [Google Cloud Vision
 - [ ] Redeem the Google Cloud coupon that we provide you.
 - [ ] Make a call to the Google Cloud Vision API and identify the CMU logo in the provided image.
 
-## Setting up a Google Cloud project.
+## Instructions
+### Setting up a Google Cloud project.
 
 1. First, download and install the gcloud CLI interface using the instructions [here](https://cloud.google.com/sdk/docs/install). Once you reach the step where you are asked to run `gcloud init`, run it, then continue following the instructions below. 
 1. When asked for an account to use, _you must use your CMU email address_. If you do not, you will not be able to redeem the Google Cloud coupon that we provide you.
