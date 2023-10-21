@@ -4,7 +4,8 @@ Homework 5 involves calling external APIS, specifically the [Google Cloud Vision
 
 ## Deliverables
 - [ ] Sign up for an account and successfully make a call to the Google Cloud Vision API.
-- [ ] (2 points) Reimplement the Promise code in the repository as async/await.
+- [ ] Reimplement the Promise code in the repository as async/await.
+- [ ] Identify a reason why async/await is preferred to Promises and explain it to the TA.
 
 ## Instructions
 ### Setting up a Google Cloud project.
