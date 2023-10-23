@@ -1,5 +1,7 @@
 # Lab 8: Concurrency
 
+# These instructions as written do not work. We are testing an alternative and will post an announcement on Piazza when they are fixed.
+
 Homework 5 involves calling external APIS, specifically the [Google Cloud Vision API](https://cloud.google.com/vision?hl=en). This specific API (and many others you will encounter) requires you to set up an account. In this lab, you will set up your environment to work with the Google Cloud API. Since this lab is about environment setup, you may work through any problems you encounter with others, or seek help from the TAs during your lab session.
 
 ## Deliverables
