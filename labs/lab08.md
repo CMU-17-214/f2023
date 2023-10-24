@@ -19,7 +19,7 @@ Homework 5 involves calling external APIs, specifically the [Google Cloud Vision
 1. Click on the Student Coupon Retrieval Link in the assignment posted to Canvas
 1. Verify your *school* email.
 1. Click the redeem link in the email they send you.
-1. In the window that is opened, in the upper-right of the screen switch to the personal account you used earlier. At this point you can enter the coupon code from the email. If you receive an error that says "You may not have permission to create projects in this organization", double-check that you have switched to the proper account. *You are only able to redeem a code once, if you have difficulty please post on Piazza or send an email ASAP so that we can obtain a new one*.
+1. In the window that is opened, in the upper-right of the screen **switch to the personal account** you used earlier. At this point you can enter the coupon code from the email. **Make sure that you do redeem the code for a personal gmail account, not your andrew account**, as it will not work for the latter and you might loose the coupon code in the process. If you receive an error that says "You may not have permission to create projects in this organization", double-check that you have switched to the proper account. *You are only able to redeem a code once, if you have difficulty please post privately on Piazza ASAP so that we can try obtain a new one*.
 
 ### Enabling billing for your project
 1. Open a web browser and [sign in to the Google Cloud console](https://console.cloud.google.com) with your personal account.
