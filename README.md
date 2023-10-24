@@ -210,7 +210,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Oct 24</td>
-      <td>Concurrency: Patterns and Promises</td>
+      <td><a href="https://docs.google.com/presentation/d/1RVh8ayQszjt0hHV2Cq8TJglEVkrS1TWKIn0gs9F3XvI/edit?usp=sharing">Concurrency: Reactive Programming</a></td>
       <td></td>
     </tr>
     <tr>
@@ -219,7 +219,7 @@ The schedule below reflects our current plans, but will be updated throughout th
       <td></td>
     </tr>
     <td>Thu, Oct 26</td>
-      <td>Events everywhere</td>
+      <td><a href="https://docs.google.com/presentation/d/1tTkDT6dkDBFilVm9M_hYsde6FKx_mfKOs9d4yJNnmJU/edit?usp=sharing">Distributed Systems -- Events everywhere</a></td>
       <td></td>
     </tr>
   </tbody>
