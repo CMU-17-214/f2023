@@ -231,17 +231,17 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Oct 31</td>
-      <td>Libraries and Frameworks</td>
+      <td><a href="https://docs.google.com/presentation/d/1wF0pyEZqycWNUnV75QyGTI9bDrtBMIJsnLUVVPLCSTw">Design for Robustness & Distributed Systems</a></td>
       <td></td>
     </tr>
     <tr>
       <td>Wed, Nov 1</td>
-      <td><span class="rec">Lab 9</span> Frameworks</td>
+      <td><span class="rec">Lab 9</span> ReactJS</td>
       <td></td>
     </tr>
     <tr>
       <td>Thu, Nov 2</td>
-      <td>API Design</td>
+      <td>Libraries and Frameworks</td>
       <td></td>
     </tr>
   </tbody>
@@ -270,7 +270,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Nov 14</td>
-      <td>API Design (continued)</td>
+      <td>API Design</td>
       <td></td>
     </tr>
     <tr>
@@ -280,7 +280,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Nov 16</td>
-      <td>Design for Robustness & Distributed Systems</td>
+      <td>API Design (continued)</td>
       <td></td>
     </tr>
   </tbody>
