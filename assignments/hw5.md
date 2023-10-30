@@ -4,6 +4,8 @@ In this assignment you will work with concurrency in a Node backend and will mod
 
 ## Starter code
 
+Find the starter code with the GitHub Classroom link on Canvas.
+
 You will work on a semi-completed program *SmilingFaces* to analyze faces in Wikipedia pages -- for example are more people smiling in pictures of the Carnegie Mellon wikipedia page or in the University of Pittsburgh wikipedia page? In the web application, you can enter a *topic* for which a Wikipedia page exists and the program will identify all images in the page and determine with an ML model whether the picture contains smiling faces. It can also collect the pictures from other Wikipedia pages linked heavily from the target page ("include top neighbor topics").
 
 The starter code already handles all the communication with Wikipedia and the Google Cloud Vision API, but the backend code is currently written synchronously (which is actually quite difficult to do and very unusual for Node code). As a consequence the backend can only respond to a single request at a time and it is very slow. The provided implementation is also bad at error handling.
@@ -31,7 +33,7 @@ In the user interface in the web browser you can enter a topic and start the ana
 * The server can answer multiple requests concurrently (i.e., multiple calls to `/job` and `/job/:id`).
 * The server reports an error when more than 5 jobs are processed concurrently asking users to try again later. Reject additional requests with HTTP error code 503.
 * The server never makes more than 5 concurrent requests to Wikipedia and never more than 5 concurrent requests to the Google Cloud API in order to not overload those servers (this limit is shared by all jobs).
-* If multiple topics are analyzed, the server does not wait until all images are collected from all topics, but starts analyzing images as soon as the images from the first topics are identified.
+* If multiple topics are analyzed, the server does not wait until all images are collected from all topics, but starts analyzing images as soon as the images from each topic are identified.
 
 **Error handling.** Make the implementation robust to errors. Specifically we expect you to handle the following kind of errors:
 
@@ -63,7 +65,7 @@ Concurrency:
 * [ ] [10 points] The backend successfully completes computations and provides the results through the API.
 * [ ] [5 points] The backend rejects additional new jobs when processing 5 jobs concurrently with HTTP error code 503
 * [ ] [5 points] The backend correctly limits concurrency to at most 5 concurrent requests each to Wikipedia and Google.
-* [ ] [5 points] The backend can process images before finishing gathering all images from all topics.
+* [ ] [5 points] The backend can process images after images are identified from a topic, independent of other topics also to be analyzed.
 
 Error handling:
 
