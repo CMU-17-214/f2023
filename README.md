@@ -248,7 +248,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Mon, Nov 6</td>
-      <td><span class="assignment"><span class="hw">HW 5 due</span> Concurrency / GUI</td>
+      <td><span class="assignment"><span class="hw">HW 5 due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw5.md">Concurrency</a></td>
       <td></td>
     </tr>
     <tr>
@@ -275,7 +275,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Nov 15</td>
-      <td><span class="rec">Lab 11</span> GitFlow and Code Review</td>
+      <td><span class="rec">Lab 11</span> Frameworks/Extensibility</td>
       <td></td>
     </tr>
     <tr>
@@ -313,7 +313,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Nov 29</td>
-      <td><span class="rec">Lab 12</span> Advanced Git Operations</td>
+      <td><span class="rec">Lab 12</span> Cloud Deployment</td>
       <td></td>
     </tr>
     <tr>
