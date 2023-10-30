@@ -150,7 +150,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr class="">
       <td>Tue, Oct 3</td>
-      <td>Introduction to GUIs and Concurrency</td>
+      <td><a href="https://docs.google.com/presentation/d/1UwOwQaCNsmRiubei6jqkrwX5IA_fWaHL4TYgnFXFCvE/edit?usp=sharing">Introduction to GUIs and Concurrency</a></td>
       <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/1feg4j8/alma991019576375404436">Design Patterns Explained</a> or <a href="https://refactoring.guru/design-patterns/catalog">Refactoring Guru</a> on Observer and Decorator</td>
     </tr>
     <tr>
@@ -172,16 +172,16 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Oct 10</td>
-      <td>(Towards) Web Apps</td>
+      <td><a href="https://docs.google.com/presentation/d/1MYznh142GLDOjTiruuP475bD-EpPpYcJbYXLWJJ7KHU/edit?usp=sharing">Asynchrony in JavaScript</a></td>
       <td></td>
     </tr>
     <tr>
       <td>Wed, Oct 11</td>
-      <td><span class="rec">Lab 7</span> GUI intro </br>
+      <td><span class="rec">Lab 7</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab07.md">GUI intro </a></td>
     </tr>
     <tr>
       <td>Thu, Oct 12</td>
-      <td>Concurrency: Safety and Immutability</td>
+      <td><a href="https://docs.google.com/presentation/d/1fOKIktVlnDzdCzNcOj-QLD8wqodA4d_fhzhixFXPzKg/edit?usp=sharing">Concurrency and Hazards</a></td>
       <td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop">Concurrency model and the event loop</a> + <a href="https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5">How JavaScript works</a></td>
     </tr>
   </tbody>
@@ -204,22 +204,22 @@ The schedule below reflects our current plans, but will be updated throughout th
   </tbody>
   <tbody>
     <tr>
-      <td>Mon, Oct 23</td>
+      <td>Tue, Oct 24</td>
       <td><span class="assignment"><span class="hw">HW 4 due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw4.md">Refactoring</a></td>
       <td></td>
     </tr>
     <tr>
       <td>Tue, Oct 24</td>
-      <td>Concurrency: Patterns and Promises</td>
+      <td><a href="https://docs.google.com/presentation/d/1RVh8ayQszjt0hHV2Cq8TJglEVkrS1TWKIn0gs9F3XvI/edit?usp=sharing">Concurrency: Reactive Programming</a></td>
       <td></td>
     </tr>
     <tr>
       <td>Wed, Oct 25</td>
-      <td><span class="rec">Lab 8</span> Concurrency & Promises</td>
+      <td><span class="rec">Lab 8</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab08.md">Concurrency & Promises</a></td>
       <td></td>
     </tr>
     <td>Thu, Oct 26</td>
-      <td>Events everywhere</td>
+      <td><a href="https://docs.google.com/presentation/d/1tTkDT6dkDBFilVm9M_hYsde6FKx_mfKOs9d4yJNnmJU/edit?usp=sharing">Distributed Systems -- Events everywhere</a></td>
       <td></td>
     </tr>
   </tbody>
@@ -231,17 +231,17 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Oct 31</td>
-      <td>Libraries and Frameworks</td>
+      <td><a href="https://docs.google.com/presentation/d/1wF0pyEZqycWNUnV75QyGTI9bDrtBMIJsnLUVVPLCSTw">Design for Robustness & Distributed Systems</a></td>
       <td></td>
     </tr>
     <tr>
       <td>Wed, Nov 1</td>
-      <td><span class="rec">Lab 9</span> Frameworks</td>
+      <td><span class="rec">Lab 9</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab09.md">ReactJS</a></td>
       <td></td>
     </tr>
     <tr>
       <td>Thu, Nov 2</td>
-      <td>API Design</td>
+      <td>Libraries and Frameworks</td>
       <td></td>
     </tr>
   </tbody>
@@ -270,7 +270,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Nov 14</td>
-      <td>API Design (continued)</td>
+      <td>API Design</td>
       <td></td>
     </tr>
     <tr>
@@ -280,7 +280,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Nov 16</td>
-      <td>Design for Robustness & Distributed Systems</td>
+      <td>API Design (continued)</td>
       <td></td>
     </tr>
   </tbody>

@@ -123,7 +123,7 @@ Specifically, we expect to grade the homework with the following rubric:
 **Initial submission (30 points, milestone 3a)**
 
 1. [ ] 10: The GitHub submission includes a reasonably complete version of all design documents that demonstrate a good-faith attempt at modeling the problem (`domain-model.pdf`,  <code>system-sequence-diagram.pdf</code>, <code>contract.pdf</code>, `object-model.pdf`, `build-justification.pdf`, and `state-justification.pdf`)
-2. [ ] 10: The design documents are submitted in a zip file to Canvas without obvious identifying information (no name or AndrewID in any of the documents)
+2. [ ] 10: The design documents and only design documents are submitted in a zip file to Canvas without obvious identifying information (no name or AndrewID in any of the documents)
 3. [ ] 10: The GitHub submission includes reasonably complete code and tests that demonstrate a good-faith attempt at implementing the game.
 
 **Domain analysis (25 points, milestone 3a/c):**
