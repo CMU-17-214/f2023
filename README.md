@@ -286,6 +286,11 @@ The schedule below reflects our current plans, but will be updated throughout th
   </tbody>
   <tbody>
     <tr>
+      <td>Tue, Nov 21/td>
+      <td><span class="assignment"><span class="hw">HW 6a due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw6.md">Santorini: User Interface</a></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Tue, Nov 21</td>
       <td>Organizing Systems at Scale: Modules, Dependencies, Breaking Changes</td>
       <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019695982104436">The Java Module System</a> Chapter 1 or <a href="https://auth0.com/blog/javascript-module-systems-showdown/">JavaScript Module Systems Showdown</a></td>
@@ -301,11 +306,6 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
   </tbody>
   <tbody>
-    <tr>
-      <td>Mon, Nov 27</td>
-      <td><span class="assignment"><span class="hw">HW 6a due</span> Santorini: God Cards</td>
-      <td></td>
-    </tr>
     <tr>
       <td>Tue, Nov 28</td>
       <td>More Design Patterns</td>
@@ -340,7 +340,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Fri, Dec 8</td>
-      <td><span class="assignment"><span class="hw">HW 6b due</span> Santorini: GUI</td>
+      <td><span class="assignment"><span class="hw">HW 6b due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw5.md">Santorini: God Cards</a></td>
       <td></td>
     </tr>
   </tbody>
