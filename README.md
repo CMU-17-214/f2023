@@ -258,7 +258,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Nov 8</td>
-      <td><span class="rec">Lab 10</span> Test Double (Fakes, Mocks & Stubs)</td>
+      <td><span class="rec">Lab 10</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab10.md">Test Double (Fakes, Mocks & Stubs)</a></td>
       <td></td>
     </tr>
     <tr class="midterm">
