@@ -286,7 +286,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   </tbody>
   <tbody>
     <tr>
-      <td>Tue, Nov 21/td>
+      <td>Tue, Nov 21</td>
       <td><span class="assignment"><span class="hw">HW 6a due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw6.md">Santorini: User Interface</a></td>
       <td></td>
     </tr>
@@ -335,12 +335,12 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Dec 7</td>
-      <td>Finale: Toward SE, Teams, Process</td>
+      <td><span class="assignment"><span class="hw">HW 6b due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw5.md">Santorini: God Cards</a></td>
       <td></td>
     </tr>
     <tr>
-      <td>Fri, Dec 8</td>
-      <td><span class="assignment"><span class="hw">HW 6b due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw5.md">Santorini: God Cards</a></td>
+      <td>Thu, Dec 7</td>
+      <td>Finale: Toward SE, Teams, Process</td>
       <td></td>
     </tr>
   </tbody>
