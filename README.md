@@ -280,7 +280,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Nov 16</td>
-      <td>API Design (continued)</td>
+      <td><a href="https://docs.google.com/presentation/d/1EyN1tzfejvkWQAEMD2AL1G8PwyROEaA2htJjvm1GwYQ/edit?usp=sharing">Organizing Systems at Scale: Modules</a></td>
       <td></td>
     </tr>
   </tbody>
@@ -292,8 +292,8 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Nov 21</td>
-      <td>Organizing Systems at Scale: Modules, Dependencies, Breaking Changes</td>
-      <td><a href="https://cmu.primo.exlibrisgroup.com/permalink/01CMU_INST/6lpsnm/alma991019695982104436">The Java Module System</a> Chapter 1 or <a href="https://auth0.com/blog/javascript-module-systems-showdown/">JavaScript Module Systems Showdown</a></td>
+      <td>tbd/td>
+      <td></td>
     </tr>
     <tr>
       <td>Wed, Nov 22</td>
