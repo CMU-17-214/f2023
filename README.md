@@ -292,7 +292,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Tue, Nov 21</td>
-      <td>tbd/td>
+      <td>No class, Thanksgiving</td>
       <td></td>
     </tr>
     <tr>
@@ -308,7 +308,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Nov 28</td>
-      <td>More Design Patterns</td>
+      <td><a href="https://docs.google.com/presentation/d/1i-DCXywcBRbn-llGnM-5M9vbu0hTFP6Op-pyPek8nBo/edit?usp=sharing">Supply Chain Security and Sustainability</a></td>
       <td></td>
     </tr>
     <tr>
