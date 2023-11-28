@@ -3,11 +3,11 @@
 Repo link: [https://github.com/CMU-17-214/f23-rec12](https://github.com/CMU-17-214/f23-rec12)
 
 In this recitation, you will deploy a version of the TicTacToe game to the
-Google Cloud Compute Engine service, allowing you to access it remotely.
+Google Cloud Compute Engine service, allowing you to access it remotely. You can use the same strategy if you want to release your Santorini implementation publicly.
 
 ## Deliverables
 - [ ] Enable the Google Cloud Compute Engine service, and create a virtual machine.
-- [ ] Successfully run a Docker image on your cloud virtual machine.
+- [ ] Successfully run a Docker image on your cloud virtual machine and show the running site to the TA.
 - [ ] Make a change to the code and update the image on the cloud.
 
 ## Introduction
@@ -16,7 +16,8 @@ ability to use servers that they have as _virtual machines_. This allows you to
 skip a lot of the work needed to assemble your own server, connect it to the
 internet, and maintain hardware that might fail. It also allows you to quickly deploy web applications and observe changes as you make them.
 
-The instructions here are highly manual, and almost all of them can be automated. This is out of the scope of this course, but other CMU courses (e.g., 15-319/619) go into more depth on how to automate them.
+The instructions here are highly manual, and almost all of them can be automated. 
+This is out of the scope of this course, but other CMU courses focused on DevOps or cloud computing (e.g., 17-346/646, 15-319/619) go into more depth on modern tooling to automate them.
 
 ## Instructions
 
@@ -25,7 +26,10 @@ The instructions here are highly manual, and almost all of them can be automated
 1. Create your own fork of [the starter repository](https://github.com/CMU-17-214/f23-rec12).
 
 ### Setting up a new virtual machine
-Note: you may or may not have Google Cloud APIs enabled that you need for these
+We continue to use the Google Cloud Platform as in Lab 8 and HW5, for which we provided coupons to get free credits. NOTE: We do not have any additional backup coupons. If you have not yet resolved coupon issues, you will not be able to complete this portion of the lab or have to use another billing account. 
+
+
+You may or may not have Google Cloud APIs enabled that you need for these
 steps. If you do not, choose "Enable" when prompted.
 
 2. On the [Google Cloud Console](https://console.cloud.google.com), click the
@@ -157,3 +161,7 @@ Before you make a change, you can use Ctrl-C to kill the running Docker image on
 33. Update the tag, push to Docker hub, and pull the new image from Docker hub following steps 17 through 21 above.
 
 34. Re-run the docker image you just created on the VM using `docker run`. You should see the new website running when you point your web browser to the IP address of the container.
+
+---
+
+Remember to shut down the virtual machine if you do not need it anymore to stop paying credits for it.
