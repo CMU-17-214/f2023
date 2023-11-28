@@ -7,8 +7,7 @@ Google Cloud Compute Engine service, allowing you to access it remotely.
 
 ## Deliverables
 - [ ] Enable the Google Cloud Compute Engine service, and create a virtual machine.
-- [ ] Demonstrate to the TA that you were able to successfully run an instance
-      of TicTacToe on the cloud.
+- [ ] Successfully run a Docker image on your cloud virtual machine.
 - [ ] Make a change to the code and update the image on the cloud.
 
 ## Introduction
@@ -16,6 +15,8 @@ One of the services provided by Google (and Amazon, Microsoft, etc.) is the
 ability to use servers that they have as _virtual machines_. This allows you to
 skip a lot of the work needed to assemble your own server, connect it to the
 internet, and maintain hardware that might fail.
+
+The instructions here are highly manual, and almost all of them can be automated. This is out of the scope of this course, but other CMU courses (e.g., 15-319/619) go into more depth on how to automate them.
 
 ## Instructions
 
@@ -69,7 +70,7 @@ to the lab 8 instructions.
 
 ### Sign up for a Docker account and set up a new repository
 
-11. Create a new account on [https://hub.docker.com](). This will be used for
+11. Create a new account on [https://hub.docker.com](https://hub.docker.com). This will be used for
 creating Docker images and pushing them to Docker Hub for deployment to your new
 virtual machine.
 
@@ -87,7 +88,7 @@ INSTRUCTIONS](#emergency-bailout-instructions) below. These instructions are
 tested and use the virtual machine itself for compilation and containerization,
 which is a much less realistic use case, but should allow you to complete the lab.
 
-13. Download the Docker Desktop installer from the [docker desktop
+13. Download the Docker Desktop installer from the [Docker Desktop
 website](https://docs.docker.com/desktop/), and follow the instructions to
 install it.
 
@@ -95,42 +96,36 @@ install it.
 created in the previous step.
 
 ### Build and deploy a Docker container
-15. On your local machine, clone the [repository we provide you]().
+15. On your local machine, clone the repository you forked, and follow the instructions in its README.md to build a Docker image.
 
-16. Navigate to the `back-end` directory and run `mvn package`.
+16. You should be able to see the Docker image you just created with `docker images`.
 
-17. Now navigate to the `front-end` directory and run `npm install` followed by
-`npm run build`.
-
-18. Navigate back to the root directory. From here run `docker build -t
-[image-name] .` This will create a new Docker image.
-
-19. Now create a new Docker tag matching your repository name. To do this run
-`docker tag [image-name]
+17. Now create a new Docker tag matching your Docker Hub repository name. To do this run
+`docker tag lab12
 [dockerhub-user-name]/[repository-name]`. `[dockerhub-user-name]/[repository-name]`
 should match your user name and the repository name you created on Docker Hub.
 
-20. Check that the images you created exist with `docker images`. You should see
+18. Check that the images you created exist with `docker images`. You should see
 two images under the `REPOSITORY` column corresponding to the two you just
 created.
 
-21. Push the `[dockerhub-user-name]/[repository-name]` image to Docker Hub with
+19. Push the `[dockerhub-user-name]/[repository-name]` image to Docker Hub with
 `docker push [dockerhub-user-name]/[repository-name]`.
 
 
 ### Pull the image from Docker Hub on the Google Cloud VM
-22. Log back into the Google Cloud VM you created earlier.
+20. Log back into the Google Cloud VM you created earlier with the `gcloud compute ssh` command from step 9.
 
-23. Download the image you just pushed to Docker Hub using `docker pull
+21. Download the image you just pushed to Docker Hub onto the VM using `docker pull
 [dockerhub-user-name]/[repository-name]`. Check that it exists using `docker
 images`.
 
-24. Run the VM you just pulled with `docker pull -p 80:8080
+24. Run the Docker image you just pulled with `docker run -p 80:8080
 [dockerhub-user-name]/[repository-name]`. You should see the message "Running on
 port 8080!" if it is successful.
 
 25. Navigate your web browser to the IP address of the container you created
-earlier. You should see the same TicTacToe interface from Lab 7.
+earlier (i.e., the IP from step 7). You should see the same TicTacToe interface from Lab 7. Skip to step 30 if you got to this point successfully.
 
 ### EMERGENCY BAILOUT INSTRUCTIONS
 
@@ -139,8 +134,26 @@ have a virtual Linux machine that you can use to build the Docker
 image. Although this is an unrealistic use case, you can get set up with a
 container following these instructions.
 
-1. Log in to the VM you started on Google Cloud. Since you'll be compiling on
+26. Log in to the VM you started on Google Cloud with the `gcloud compute ssh` command from step 9 above. Since you'll be compiling on
 the VM, you should first install the additional dependencies using `apt install
 maven openjdk-17-jdk nodejs npm`.
 
-2. Clone your fork of the starter repository to the Google Cloud VM.
+27. Clone your fork of the starter repository to the Google Cloud VM. Follow the instructions in its README.md to build a Docker image. You do not need to interact with Docker Hub with this method.
+
+28. Run the Docker image you just created with `docker run -p 80:8080 lab12`.
+
+29. Navigate your web browser to the IP address of the container you created earlier (i.e., the IP from step 7). You should see the same TicTacToe interface from Lab 7.
+
+### Make a change to the code
+Before you make a change, you can use Ctrl-C to kill the running Docker image on your VM.
+
+30. In the forked repository, edit the last line of `front-end/src/App.css` to make playable cells `blue` instead of `red`. 
+*If you followed the Emergency Bailout Instructions above*, you should make this change on your local computer, commit it, and push it to GitHub. Then, from the Google Cloud VM you can do a `git pull` and the code will be updated.
+
+31. From the machine you built the image on, re-build the front end by running `npm run compile` in the `front-end` directory.
+
+32. Re-build the Docker image using `docker build -t lab12 .`. *If you followed the Emergency Bailout Instructions above, skip the next step.
+
+33. Update the tag, push to Docker hub, and pull the new image from Docker hub following steps 17 through 21 above.
+
+34. Re-run the docker image you just created on the VM using `docker run`. You should see the new website running when you point your web browser to the IP address of the container.
