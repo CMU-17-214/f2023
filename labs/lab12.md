@@ -1,6 +1,6 @@
 # Lab 12 - Cloud Deployment
 
-Repo link: [https://github.com/CMU-17-214/f23-rec12](https://github.com/CMU-17-214/f23-rec12)
+Repo link: [https://github.com/CMU-17-214/f23-rec12-fixed](https://github.com/CMU-17-214/f23-rec12-fixed)
 
 In this recitation, you will deploy a version of the TicTacToe game to the
 Google Cloud Compute Engine service, allowing you to access it remotely. You can use the same strategy if you want to release your Santorini implementation publicly.
@@ -23,7 +23,7 @@ This is out of the scope of this course, but other CMU courses focused on DevOps
 
 ### Fork the starter repository
 
-1. Create your own fork of [the starter repository](https://github.com/CMU-17-214/f23-rec12).
+1. Create your own fork of [the starter repository](https://github.com/CMU-17-214/f23-rec12-fixed).
 
 ### Setting up a new virtual machine
 We continue to use the Google Cloud Platform as in Lab 8 and HW5, for which we provided coupons to get free credits. NOTE: We do not have any additional backup coupons. If you have not yet resolved coupon issues, you will not be able to complete this portion of the lab or have to use another billing account. 
