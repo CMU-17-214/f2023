@@ -14,7 +14,7 @@ Google Cloud Compute Engine service, allowing you to access it remotely.
 One of the services provided by Google (and Amazon, Microsoft, etc.) is the
 ability to use servers that they have as _virtual machines_. This allows you to
 skip a lot of the work needed to assemble your own server, connect it to the
-internet, and maintain hardware that might fail.
+internet, and maintain hardware that might fail. It also allows you to quickly deploy web applications and observe changes as you make them.
 
 The instructions here are highly manual, and almost all of them can be automated. This is out of the scope of this course, but other CMU courses (e.g., 15-319/619) go into more depth on how to automate them.
 
@@ -152,7 +152,7 @@ Before you make a change, you can use Ctrl-C to kill the running Docker image on
 
 31. From the machine you built the image on, re-build the front end by running `npm run compile` in the `front-end` directory.
 
-32. Re-build the Docker image using `docker build -t lab12 .`. *If you followed the Emergency Bailout Instructions above, skip the next step.
+32. Re-build the Docker image using `docker build -t lab12 --platform linux/amd64 .`. *If you followed the Emergency Bailout Instructions above, skip the next step.
 
 33. Update the tag, push to Docker hub, and pull the new image from Docker hub following steps 17 through 21 above.
 
