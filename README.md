@@ -313,7 +313,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Wed, Nov 29</td>
-      <td><span class="rec">Lab 12</span> Cloud Deployment</td>
+      <td><span class="rec">Lab 12</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/labs/lab12.md">Cloud Deployment</td>
       <td></td>
     </tr>
     <tr>
