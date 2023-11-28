@@ -1,6 +1,6 @@
 # Lab 12 - Cloud Deployment
 
-Repo link: [https://github.com/CMU-17-214/f23-rec12]()
+Repo link: [https://github.com/CMU-17-214/f23-rec12](https://github.com/CMU-17-214/f23-rec12)
 
 In this recitation, you will deploy a version of the TicTacToe game to the
 Google Cloud Compute Engine service, allowing you to access it remotely.
@@ -29,16 +29,19 @@ steps. If you do not, choose "Enable" when prompted.
 
 1. On the [Google Cloud Console](https://console.cloud.google.com), click the
    "Create a VM" button.
+
 ![createvm](images/lab12/create-a-vm.png)
 
 1. Give your VM a name.
 
 1. It is ok to use the default E2 machines, but under the "Machine type"
    dropdown select `e2-small`
+
 ![selectvm](images/lab12/select-vm.png)
 
 1. Under "Firewall", select the boxes for "Allow HTTP traffic" and "Allow HTTPS
    traffic".
+
 ![selecttraffic](images/lab12/select-traffic.png)
 
 1. Click "Create".
@@ -46,6 +49,7 @@ steps. If you do not, choose "Enable" when prompted.
 1. You will be brought to a screen with a list of VM instances, and should see
 your newly created VM, together with an "External IP" that you can use to
 connect to it (in this case it's 34.69.81.171).
+
 ![details](images/lab12/details.png)
 
 ### Connecting to your virtual machine
