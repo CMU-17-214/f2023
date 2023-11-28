@@ -1,6 +1,6 @@
 # Lab 12 - Cloud Deployment
 
-Repo link: FIXME
+Repo link: [https://github.com/CMU-17-214/f23-rec12]()
 
 In this recitation, you will deploy a version of the TicTacToe game to the
 Google Cloud Compute Engine service, allowing you to access it remotely.
@@ -17,13 +17,11 @@ ability to use servers that they have as _virtual machines_. This allows you to
 skip a lot of the work needed to assemble your own server, connect it to the
 internet, and maintain hardware that might fail.
 
-FIXME MORE HERE
-
 ## Instructions
 
 ### Fork the starter repository
 
-1. Create your own fork of [the starter repository]().
+1. Create your own fork of [the starter repository](https://github.com/CMU-17-214/f23-rec12).
 
 ### Setting up a new virtual machine
 Note: you may or may not have Google Cloud APIs enabled that you need for these
