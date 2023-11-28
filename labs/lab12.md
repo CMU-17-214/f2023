@@ -125,8 +125,8 @@ created.
 images`.
 
 24. Run the Docker image you just pulled with `docker run -p 80:8080
-[dockerhub-user-name]/[repository-name]`. You should see the message "Running on
-port 8080!" if it is successful.
+[dockerhub-user-name]/[repository-name]`. The parameter `-p 80:8080` maps port 8080 of the virtual machine to port 80 of your local machine. You should see the message "Running on
+port 8080!" if it is successful and should be able to access the game locally on port 80 (i.e., just `http://<IP>`).
 
 25. Navigate your web browser to the IP address of the container you created
 earlier (i.e., the IP from step 7). You should see the same TicTacToe interface from Lab 7. Skip to step 30 if you got to this point successfully.
