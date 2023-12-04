@@ -143,7 +143,7 @@ Homework submissions with a link in the wrong format will not receive any points
 **Milestone 6b bonus points (0-34 points)** 
 
  * [ ] 4: points per additional god card listed in the appendix, if it is implemented correctly, not hard-coded in the base game, tested, and usable through the user interface
- * [ ] 10: The game is deployed on the Google Cloud Platform. The corresponding `Dockerfile` can be found in the repository. The beginning of the readme includes a link to the server.
+ * [ ] 10: The game is deployed online. The corresponding `Dockerfile` can be found in the repository. The beginning of the readme includes a link to the server.
 
 
 
