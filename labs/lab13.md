@@ -1,6 +1,6 @@
 # Lab 13 - Design Pattern Review
 
-In this recitation, you will provide an overview of three crucial design patterns: **Strategy**, **Template**, and **Decorator**. For each pattern, your task is to articulate key aspects, discuss scenarios where it is beneficial, highlight situations where it might not be the best choice, and present a UML diagram from *Santorini or past homework* that demonstrates the pattern.
+In this recitation, you will revisit three crucial design patterns: **Strategy**, **Template**, and **Decorator**. For each pattern, your task is to articulate key aspects, discuss scenarios where it is beneficial, highlight situations where it might not be the best choice, and demonstrate their use in UML diagram in the context of *Santorini's God Cards*.
 
 
 ## Deliverables
@@ -9,7 +9,7 @@ In this recitation, you will provide an overview of three crucial design pattern
 - [ ] Fill out the **Decorator** pattern template and answer follow-up questions of the TA
 
 ## Introduction
-Throughout the semester, we've delved into seven commonly used design patterns: **Strategy**, **Template**, **Decorator**, **Composite**, **Observer**, **Proxy**, and **Adapter**.
+Throughout the semester, we've delved into many commonly used design patterns, including **Strategy**, **Template**, **Decorator**, **Composite**, **Observer**, **Proxy**, and **Adapter**.
 
 In this lab, we will focus on the first three.
 
@@ -18,7 +18,7 @@ For each design pattern, you are expected to provide information in four section
 - **Description**: Define the key characteristics that distinguish the pattern from others.
 - **Pros**: Explain when and why you would choose this pattern. Focus on its advantages in terms of design principles and coding styles.
 - **Cons**: Identify scenarios where choosing this pattern might be suboptimal. Focus on what makes it less preferable compared to alternative choices.
-- **UML Diagram/Code snippet**: Present a UML diagram illustrating a concrete scenario in the Santorini God Cards context. For the other design patterns, feel free to use examples from other past assignments.
+- **UML Diagram/Code snippet**: Draw an excerpt of a UML object model illustrating how you could use the design pattern to implement God Cards in Santorini. The model should show concrete classes that are plausible in the game, but an excerpt with only a small subset of methods or fields is fine, as long as it demonstrates the pattern. 
 
 
 ## Instructions
