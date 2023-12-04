@@ -18,7 +18,7 @@ For each design pattern, you are expected to provide information in four section
 - **Description**: Define the key characteristics that distinguish the pattern from others.
 - **Pros**: Explain when and why you would choose this pattern. Focus on its advantages in terms of design principles and coding styles.
 - **Cons**: Identify scenarios where choosing this pattern might be suboptimal. Focus on what makes it less preferable compared to alternative choices.
-- **UML Diagram/Code snippet**: Present a UML diagram illustrating a concrete scenerio in the Santorini God Cards context. For the other design patters, feel free to use examples from other past assignments.
+- **UML Diagram/Code snippet**: Present a UML diagram illustrating a concrete scenario in the Santorini God Cards context. For the other design patterns, feel free to use examples from other past assignments.
 
 
 ## Instructions
