@@ -58,7 +58,7 @@ You should expect that you may need to substantially revise your base game desig
 * **Updated object model:** Update your object model in `object-model.pdf` to reflect your extension mechanisms and the *Demeter* card.
 * **Update justification for building action:** Extend your discussion in `build-justification.pdf` of how the game validates and performs a build action assuming that *the active player has the Demeter card* and the opposing player has no card. Update both the justification and the object-level interaction diagram.
 
-You do not need to update `state-justification.pdf`. We will grade the design documents with a similar rubric to Homework 3, so if you have unaddressed grading feedback, you might want to take this into consideration when refining the documents.
+You do not need to include any GUI-related code in the models. You do not need to update `state-justification.pdf`. We will grade the design documents with a similar rubric to Homework 3, so if you have unaddressed grading feedback, you might want to take this into consideration when refining the documents.
 
 **Testing:**  Also update your test suite to test the functionality of the game logic (unit tests), of the god cards (unit tests), and of the game with and without god cards (integration tests). As before, we do not set any specific coverage goals but ask you to use your own judgment about how much testing is useful for you to have confidence in your implementation. 
 
