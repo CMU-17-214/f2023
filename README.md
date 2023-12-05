@@ -325,7 +325,7 @@ The schedule below reflects our current plans, but will be updated throughout th
   <tbody>
     <tr>
       <td>Tue, Dec 5</td>
-      <td>DevOps</td>
+      <td><a href="https://docs.google.com/presentation/d/1ZqH4ezaFherraPR0clObsHifnBkRQeHVU_ZltEECxK4/edit?usp=sharing">DevOps</a></td>
       <td></td>
     </tr>
     <tr>
