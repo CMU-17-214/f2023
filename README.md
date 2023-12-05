@@ -335,7 +335,7 @@ The schedule below reflects our current plans, but will be updated throughout th
     </tr>
     <tr>
       <td>Thu, Dec 7</td>
-      <td><span class="assignment"><span class="hw">HW 6b due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw5.md">Santorini: God Cards</a></td>
+      <td><span class="assignment"><span class="hw">HW 6b due</span> <a href="https://github.com/CMU-17-214/f2023/blob/main/assignments/hw6.md">Santorini: God Cards</a></td>
       <td></td>
     </tr>
     <tr>
